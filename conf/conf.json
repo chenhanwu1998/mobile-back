@@ -1,0 +1,9 @@
+{
+  "MYSQL_HOST": "127.0.0.1",
+  "MYSQL_PORT": "3306",
+  "MYSQL_USER": "root",
+  "MYSQL_PASSWORD": "root",
+  "MYSQL_DB": "mobile_inf",
+  "SQLITE_PATH": "E:\\document\\pycharmProject\\mobile-back\\data\\database\\mobile_inf.sqlite",
+  "DB_TYPE": "mysql"
+}
