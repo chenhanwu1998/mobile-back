@@ -74,7 +74,7 @@ def climb():
     logger.info("爬虫任务结束")
     end = datetime.datetime.now()
     delta = end - start
-    logger.info("耗时:" + str(delta.seconds) + "s")
+    logger.info("爬虫耗时:" + str(delta.seconds) + "s")
 
 
 if __name__ == '__main__':

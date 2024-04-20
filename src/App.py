@@ -6,19 +6,23 @@ from flask_cors import CORS
 
 from src.cache import cache
 from src.climb.climb_task import climb
-from src.constant import WHITE_URL_LIST, SESSION_ID, SESSION_VALID, CLIMB_TASK, CLIMB_MIN_SEP
+from src.constant import WHITE_URL_LIST, SESSION_ID, SESSION_VALID, CLIMB_TASK, CLIMB_MIN_SEP, CLIMB_ONCE
 from src.dto.Result import Result
 from src.exception.AuthException import AuthException
 from src.utils.loging_utils import logger
 from view import register_blueprints
 
 app = Flask(__name__)
+# 设置跨域
 CORS(app)
 # 注册所有蓝图（即接口）
 register_blueprints(app)
 
-# 添加定时任务
-if CLIMB_TASK:
+if CLIMB_ONCE:
+    logger.info("开启一次爬虫")
+    climb()
+# 添加定时任务,开启了一次爬虫就默认不进行定时任务爬取
+if not CLIMB_ONCE and CLIMB_TASK:
     scheduler = BackgroundScheduler()
     scheduler.add_job(climb, 'interval', minutes=CLIMB_MIN_SEP)
     scheduler.start()

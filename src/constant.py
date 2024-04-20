@@ -17,6 +17,7 @@ SESSION_VALID = False
 WHITE_URL_LIST = ["/sys_user/login"]
 # 是否开启爬虫任务
 CLIMB_TASK = False
+CLIMB_ONCE = True
 # 多久执行一次，单位分钟
 CLIMB_MIN_SEP = 60
 
