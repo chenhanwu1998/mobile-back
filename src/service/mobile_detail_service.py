@@ -3,8 +3,10 @@ from src.entity.MobileDetail import MobileDetail
 
 
 def select_mobile_detail_by_condition(mobile: MobileDetail, order_col: str = None, limit: int = None,
-                                      not_none_col: list = None) -> list:
-    return mobile_detail_dao.select_mobile_detail_by_condition(mobile, order_col, limit, not_none_col)
+                                      not_none_col: list = None, low_price: float = None,
+                                      high_price: float = None) -> list:
+    return mobile_detail_dao.select_mobile_detail_by_condition(mobile, order_col, limit, not_none_col, low_price,
+                                                               high_price)
 
 
 def save_or_update(mobile_detail_list: list[MobileDetail]) -> bool:

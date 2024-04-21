@@ -16,19 +16,19 @@ class MysqlUtils:
 
     def __init__(self):
         self.connect = None
+        config = get_config()
+        if config["DB_TYPE"] == MYSQL:
+            self.engine = create_engine('mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8mb4'
+                                        % (config['MYSQL_USER'], config['MYSQL_PASSWORD'], config['MYSQL_HOST'],
+                                           config['MYSQL_PORT'], config['MYSQL_DB']), )
+        elif config["DB_TYPE"] == SQLITE:
+            self.engine = create_engine('sqlite:///' + config["SQLITE_PATH"])
+        else:
+            raise Exception("数据库配置错误")
 
     def get_connect(self):
         if self.connect is None:
-            config = get_config()
-            if config["DB_TYPE"] == MYSQL:
-                self.connect = create_engine('mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8mb4'
-                                             % (config['MYSQL_USER'], config['MYSQL_PASSWORD'], config['MYSQL_HOST'],
-                                                config['MYSQL_PORT'], config['MYSQL_DB']), ).connect()
-                print(type(self.connect))
-            elif config["DB_TYPE"] == SQLITE:
-                self.connect = create_engine('sqlite:///' + config["SQLITE_PATH"])
-            else:
-                raise Exception("数据库配置错误")
+            self.connect = self.engine
         return self.connect
 
     def update_sql(self, sql) -> bool:
