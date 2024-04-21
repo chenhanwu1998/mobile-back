@@ -22,6 +22,9 @@ def select_mobile_detail_by_condition():
     order_col = None
     if "order_col" in data.keys():
         order_col = data["order_col"]
+    not_none_col = None
+    if "not_none_col" in data.keys():
+        not_none_col = data["not_none_col"].split(",")
 
-    result = mobile_detail_service.select_mobile_detail_by_condition(mobile_detail, order_col, limit)
+    result = mobile_detail_service.select_mobile_detail_by_condition(mobile_detail, order_col, limit, not_none_col)
     return jsonify(Result.success(common_utils.trans_obj_list(result)).__dict__)

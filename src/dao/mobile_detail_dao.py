@@ -5,9 +5,18 @@ from src.utils.loging_utils import logger
 
 
 def select_mobile_detail_by_condition(mobile: MobileDetail, order_col: str = None,
-                                      limit: int = None) -> list[MobileDetail]:
+                                      limit: int = None, not_none_col: list = None) -> list[MobileDetail]:
     sql = "select * from mobile_detail"
     where_sql = common_utils.get_where_sql(mobile, True)
+    if not_none_col is not None and len(not_none_col) != 0:
+        not_none_condition = []
+        for col in not_none_col:
+            not_none_condition.append(f"{col} is not null and {col} !='None' and {col} !=''")
+        condition = string_utils.join(not_none_condition, sep=" and ")
+        if not string_utils.is_empty(where_sql):
+            where_sql += f"and ({condition})"
+        else:
+            where_sql = condition
     if not string_utils.is_empty(where_sql):
         sql += " where " + where_sql
     if order_col is not None:

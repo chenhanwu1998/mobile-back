@@ -1,3 +1,4 @@
+import threading
 import traceback
 
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -18,9 +19,14 @@ CORS(app)
 # 注册所有蓝图（即接口）
 register_blueprints(app)
 
+# 异步执行
 if CLIMB_ONCE:
     logger.info("开启一次爬虫")
-    climb()
+    task = threading.Thread(target=climb)
+    task.start()
+    # 等待爬虫完毕才启动app
+    # task.join()
+
 # 添加定时任务,开启了一次爬虫就默认不进行定时任务爬取
 if not CLIMB_ONCE and CLIMB_TASK:
     scheduler = BackgroundScheduler()

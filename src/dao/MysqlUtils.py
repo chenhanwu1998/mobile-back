@@ -23,7 +23,8 @@ class MysqlUtils:
             if config["DB_TYPE"] == MYSQL:
                 self.connect = create_engine('mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8mb4'
                                              % (config['MYSQL_USER'], config['MYSQL_PASSWORD'], config['MYSQL_HOST'],
-                                                config['MYSQL_PORT'], config['MYSQL_DB']), )
+                                                config['MYSQL_PORT'], config['MYSQL_DB']), ).connect()
+                print(type(self.connect))
             elif config["DB_TYPE"] == SQLITE:
                 self.connect = create_engine('sqlite:///' + config["SQLITE_PATH"])
             else:

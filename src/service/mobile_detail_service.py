@@ -2,8 +2,9 @@ from src.dao import mobile_detail_dao
 from src.entity.MobileDetail import MobileDetail
 
 
-def select_mobile_detail_by_condition(mobile: MobileDetail, order_col: str = None, limit: int = None) -> list:
-    return mobile_detail_dao.select_mobile_detail_by_condition(mobile, order_col, limit)
+def select_mobile_detail_by_condition(mobile: MobileDetail, order_col: str = None, limit: int = None,
+                                      not_none_col: list = None) -> list:
+    return mobile_detail_dao.select_mobile_detail_by_condition(mobile, order_col, limit, not_none_col)
 
 
 def save_or_update(mobile_detail_list: list[MobileDetail]) -> bool:
