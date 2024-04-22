@@ -3,7 +3,7 @@ from flask import request, jsonify, Blueprint
 from src.dto.Result import Result
 from src.entity.Article import Article
 from src.service import article_service
-from src.utils import common_utils
+from src.utils import common_utils, convert_utils, string_utils
 from src.utils.loging_utils import logger
 
 article_route = Blueprint('article_route', __name__)
@@ -44,6 +44,10 @@ def delete_article():
 def select_article_by_condition():
     data = request.args.to_dict()
     logger.info("data:" + str(data))
-    article_data = Article(**data)
-    result_list = article_service.select_article_by_condition(article_data)
-    return jsonify(Result.success(common_utils.trans_obj_list(result_list)).__dict__)
+    limit = None
+    if "limit" in data.keys() and not string_utils.is_empty(data["limit"]):
+        limit = data["limit"]
+    data_dict = convert_utils.convert_dict(Article(), data)
+    article_data = Article(**data_dict)
+    result_list = article_service.select_article_by_condition(article_data, limit)
+    return jsonify(Result.success(common_utils.trans_article_list(result_list)).__dict__)

@@ -1,3 +1,4 @@
+from src.dto.ArticleDTO import ArticleDTO
 from src.utils import string_utils
 
 
@@ -22,5 +23,18 @@ def print_obj_list(entity_list: list):
 def trans_obj_list(obj_list) -> list:
     target_list = []
     for temp in obj_list:
+        target_list.append(temp.__dict__)
+    return target_list
+
+
+def trans_article_list(article_list: list[ArticleDTO]) -> list:
+    target_list = []
+    for temp in article_list:
+        temp_comment_list = temp.comment_list
+        target_comment_list = []
+        if temp_comment_list is not None:
+            for temp_comment in temp_comment_list:
+                target_comment_list.append(temp_comment.__dict__)
+        temp.comment_list = target_comment_list
         target_list.append(temp.__dict__)
     return target_list

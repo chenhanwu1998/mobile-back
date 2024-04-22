@@ -44,7 +44,7 @@ def index():
 def handle_exception(error):
     trace = traceback.format_exc()
     logger.error("[全局异常]:" + str(error))
-    # logger.error("[trace]:" + trace)
+    logger.error("[trace]:" + trace)
     if isinstance(error, AuthException):
         return jsonify(Result.fail_401(str(error)).__dict__), 200
     return jsonify(Result.fail(str(error)).__dict__), 200
