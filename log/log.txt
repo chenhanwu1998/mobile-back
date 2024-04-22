@@ -1,128 +1,144 @@
-2024-04-22 14:49:29,030 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [13756] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:49:29,032 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [9224] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_occup
-2024-04-22 14:49:29,033 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [3884] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=good_score
-2024-04-22 14:49:29,034 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [13756] - ERROR - [全局异常]:未登录
-2024-04-22 14:49:29,035 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [9224] - ERROR - [全局异常]:未登录
-2024-04-22 14:49:29,035 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [3884] - ERROR - [全局异常]:未登录
-2024-04-22 14:49:29,037 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [18240] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:49:29,037 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [18240] - ERROR - [全局异常]:未登录
-2024-04-22 14:49:47,841 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 66 - [19028] - INFO - 白名单url，不用校验session信息
-2024-04-22 14:49:47,841 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 25 - [19028] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '123456'}
-2024-04-22 14:49:47,841 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [19028] - INFO - sql:select * from sys_user where user_code='chenhanwu'
-2024-04-22 14:49:47,846 - logger - E:\document\pycharmProject\mobile-back\src\service\sys_user_service.py - 23 - [19028] - INFO - user_dto:{'user_code': 'chenhanwu', 'pswd': '123456', 'e_mail': '120668', 'stu_id': '20171', 'question': '你是谁？', 'answer': '我是我', 'dates': datetime.datetime(2019, 4, 4, 10, 11, 59), 'session_id': '9d5a074b-9f8a-41d5-bab5-54ab8d1dbcbe'}
-2024-04-22 14:49:47,908 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [7384] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
-2024-04-22 14:49:47,908 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [7384] - INFO - second:0
-2024-04-22 14:49:47,908 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [7384] - INFO - data:{'order_col': 'brand_score'}
-2024-04-22 14:49:47,908 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [7384] - INFO - sql:select * from mobile_company order by brand_score desc 
-2024-04-22 14:50:10,894 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [16016] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:50:10,895 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [16016] - INFO - second:22
-2024-04-22 14:50:10,895 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [16016] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
-2024-04-22 14:50:10,895 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [16016] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
-2024-04-22 14:51:00,543 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [15324] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:51:00,543 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [15324] - INFO - second:49
-2024-04-22 14:51:00,544 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [15324] - ERROR - [全局异常]:登录过期了
-2024-04-22 14:52:29,366 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 66 - [9836] - INFO - 白名单url，不用校验session信息
-2024-04-22 14:52:29,366 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 25 - [9836] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '123456'}
-2024-04-22 14:52:29,366 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [9836] - INFO - sql:select * from sys_user where user_code='chenhanwu'
-2024-04-22 14:52:29,368 - logger - E:\document\pycharmProject\mobile-back\src\service\sys_user_service.py - 23 - [9836] - INFO - user_dto:{'user_code': 'chenhanwu', 'pswd': '123456', 'e_mail': '120668', 'stu_id': '20171', 'question': '你是谁？', 'answer': '我是我', 'dates': datetime.datetime(2019, 4, 4, 10, 11, 59), 'session_id': '376ea119-1043-4974-a7a8-eb7bff29bd69'}
-2024-04-22 14:52:29,410 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [22188] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:52:29,410 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [22188] - INFO - second:0
-2024-04-22 14:52:29,411 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [22188] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
-2024-04-22 14:52:29,411 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [15856] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
-2024-04-22 14:52:29,411 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [22188] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
-2024-04-22 14:52:29,411 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [15856] - INFO - second:0
-2024-04-22 14:52:29,412 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [15856] - INFO - data:{'order_col': 'brand_score'}
-2024-04-22 14:52:29,412 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [15856] - INFO - sql:select * from mobile_company order by brand_score desc 
-2024-04-22 14:52:31,444 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [26248] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:52:31,444 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [26248] - INFO - second:2
-2024-04-22 14:52:31,444 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [26248] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
-2024-04-22 14:52:31,444 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [26248] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
-2024-04-22 14:52:31,451 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [9204] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:52:31,452 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [9204] - INFO - second:0
-2024-04-22 14:52:31,452 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [9204] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
-2024-04-22 14:52:31,452 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [9204] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
-2024-04-22 14:52:31,454 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [21440] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_occup
-2024-04-22 14:52:31,454 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [21440] - INFO - second:0
-2024-04-22 14:52:31,454 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [21440] - INFO - data:{'limit': '15', 'order_col': 'brand_occup'}
-2024-04-22 14:52:31,455 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [18572] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=good_score
-2024-04-22 14:52:31,455 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [21440] - INFO - sql:select * from mobile_company order by brand_occup desc  limit 15
-2024-04-22 14:52:31,455 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [18572] - INFO - second:0
-2024-04-22 14:52:31,456 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [18572] - INFO - data:{'limit': '15', 'order_col': 'good_score'}
-2024-04-22 14:52:31,456 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [18572] - INFO - sql:select * from mobile_company order by good_score desc  limit 15
-2024-04-22 14:52:37,977 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [13308] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:52:37,978 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [13308] - INFO - second:6
-2024-04-22 14:52:37,978 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [13308] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
-2024-04-22 14:52:37,978 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [13308] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
-2024-04-22 14:52:37,984 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [22824] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:52:37,985 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [22824] - INFO - second:0
-2024-04-22 14:52:37,985 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [22824] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
-2024-04-22 14:52:37,985 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [22824] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
-2024-04-22 14:53:23,455 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [752] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:53:23,455 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [752] - INFO - second:45
-2024-04-22 14:53:23,456 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [21096] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_occup
-2024-04-22 14:53:23,456 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [752] - ERROR - [全局异常]:登录过期了
-2024-04-22 14:53:23,457 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [21096] - ERROR - [全局异常]:未登录
-2024-04-22 14:53:23,458 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [15460] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=good_score
-2024-04-22 14:53:23,458 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [15460] - ERROR - [全局异常]:未登录
-2024-04-22 14:53:23,459 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [5700] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:53:23,460 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [5700] - ERROR - [全局异常]:未登录
-2024-04-22 14:53:34,162 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 66 - [8988] - INFO - 白名单url，不用校验session信息
-2024-04-22 14:53:34,162 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 25 - [8988] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '123456'}
-2024-04-22 14:53:34,162 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [8988] - INFO - sql:select * from sys_user where user_code='chenhanwu'
-2024-04-22 14:53:34,164 - logger - E:\document\pycharmProject\mobile-back\src\service\sys_user_service.py - 23 - [8988] - INFO - user_dto:{'user_code': 'chenhanwu', 'pswd': '123456', 'e_mail': '120668', 'stu_id': '20171', 'question': '你是谁？', 'answer': '我是我', 'dates': datetime.datetime(2019, 4, 4, 10, 11, 59), 'session_id': '5e3b4205-2b1e-4ea0-a4e9-53e01d15b5ac'}
-2024-04-22 14:53:34,205 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [19776] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:53:34,205 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [19776] - INFO - second:0
-2024-04-22 14:53:34,206 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [19776] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
-2024-04-22 14:53:34,206 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [19776] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
-2024-04-22 14:53:34,206 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [15468] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
-2024-04-22 14:53:34,207 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [15468] - INFO - second:0
-2024-04-22 14:53:34,207 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [15468] - INFO - data:{'order_col': 'brand_score'}
-2024-04-22 14:53:34,207 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [15468] - INFO - sql:select * from mobile_company order by brand_score desc 
-2024-04-22 14:54:04,535 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [14624] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:54:04,535 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [14624] - INFO - second:30
-2024-04-22 14:54:04,535 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [14624] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
-2024-04-22 14:54:04,535 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [14624] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
-2024-04-22 14:54:04,544 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [8888] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:54:04,545 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [8888] - INFO - second:0
-2024-04-22 14:54:04,545 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [8888] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
-2024-04-22 14:54:04,545 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [26324] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_occup
-2024-04-22 14:54:04,546 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [8888] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
-2024-04-22 14:54:04,546 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [15348] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=good_score
-2024-04-22 14:54:04,546 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [26324] - INFO - second:0
-2024-04-22 14:54:04,547 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [15348] - INFO - second:0
-2024-04-22 14:54:04,547 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [26324] - INFO - data:{'limit': '15', 'order_col': 'brand_occup'}
-2024-04-22 14:54:04,547 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [15348] - INFO - data:{'limit': '15', 'order_col': 'good_score'}
-2024-04-22 14:54:04,548 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [26324] - INFO - sql:select * from mobile_company order by brand_occup desc  limit 15
-2024-04-22 14:54:04,548 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [15348] - INFO - sql:select * from mobile_company order by good_score desc  limit 15
-2024-04-22 14:54:22,554 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [9504] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:54:22,555 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [9504] - INFO - second:18
-2024-04-22 14:54:22,555 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [9504] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
-2024-04-22 14:54:22,555 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [9504] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
-2024-04-22 14:54:22,559 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [17332] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:54:22,560 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [17332] - INFO - second:0
-2024-04-22 14:54:22,560 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [17332] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
-2024-04-22 14:54:22,560 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [17332] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
-2024-04-22 14:55:05,576 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [20840] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:55:05,576 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [20840] - INFO - second:43
-2024-04-22 14:55:05,577 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [27280] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_occup
-2024-04-22 14:55:05,578 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [20840] - ERROR - [全局异常]:登录过期了
-2024-04-22 14:55:05,578 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [27280] - ERROR - [全局异常]:未登录
-2024-04-22 14:55:05,578 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [16400] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=good_score
-2024-04-22 14:55:05,581 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [16400] - ERROR - [全局异常]:未登录
-2024-04-22 14:55:05,582 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [25268] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
-2024-04-22 14:55:05,582 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [25268] - ERROR - [全局异常]:未登录
-2024-04-22 14:55:17,128 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 66 - [12448] - INFO - 白名单url，不用校验session信息
-2024-04-22 14:55:17,128 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 25 - [12448] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '123456'}
-2024-04-22 14:55:17,128 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [12448] - INFO - sql:select * from sys_user where user_code='chenhanwu'
-2024-04-22 14:55:17,129 - logger - E:\document\pycharmProject\mobile-back\src\service\sys_user_service.py - 23 - [12448] - INFO - user_dto:{'user_code': 'chenhanwu', 'pswd': '123456', 'e_mail': '120668', 'stu_id': '20171', 'question': '你是谁？', 'answer': '我是我', 'dates': datetime.datetime(2019, 4, 4, 10, 11, 59), 'session_id': '16201be0-fdb4-4d31-ae4a-ba801d6a91c0'}
-2024-04-22 14:55:17,195 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [1944] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:55:17,195 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [1944] - INFO - second:0
-2024-04-22 14:55:17,195 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [1944] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
-2024-04-22 14:55:17,195 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [1944] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
-2024-04-22 14:55:17,197 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [4248] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
-2024-04-22 14:55:17,197 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [4248] - INFO - second:0
-2024-04-22 14:55:17,198 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [4248] - INFO - data:{'order_col': 'brand_score'}
-2024-04-22 14:55:17,198 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [4248] - INFO - sql:select * from mobile_company order by brand_score desc 
-2024-04-22 14:56:08,810 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [24720] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
-2024-04-22 14:56:08,810 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [24720] - INFO - second:51
-2024-04-22 14:56:08,811 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [24720] - ERROR - [全局异常]:登录过期了
+2024-04-22 21:08:33,861 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [18156] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:08:33,862 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [7688] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
+2024-04-22 21:08:33,864 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [18156] - ERROR - [全局异常]:未登录
+2024-04-22 21:08:33,865 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [7688] - ERROR - [全局异常]:未登录
+2024-04-22 21:08:36,748 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 66 - [7308] - INFO - 白名单url，不用校验session信息
+2024-04-22 21:08:36,749 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 25 - [7308] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '123456'}
+2024-04-22 21:08:36,749 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [7308] - INFO - sql:select * from sys_user where user_code='chenhanwu'
+2024-04-22 21:08:36,756 - logger - E:\document\pycharmProject\mobile-back\src\service\sys_user_service.py - 23 - [7308] - INFO - user_dto:{'user_code': 'chenhanwu', 'pswd': '123456', 'e_mail': '120668', 'stu_id': '20171', 'question': '你是谁？', 'answer': '我是我', 'dates': datetime.datetime(2019, 4, 4, 10, 11, 59), 'session_id': 'd3c6a735-5476-40c9-9c08-a6586553937e'}
+2024-04-22 21:08:36,792 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [17540] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:08:36,792 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [17540] - INFO - second:0
+2024-04-22 21:08:36,793 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [17540] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-22 21:08:36,793 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [17540] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:08:36,794 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [26776] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
+2024-04-22 21:08:36,794 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [26776] - INFO - second:0
+2024-04-22 21:08:36,794 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [26776] - INFO - data:{'order_col': 'brand_score'}
+2024-04-22 21:08:36,794 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [26776] - INFO - sql:select * from mobile_company order by brand_score desc 
+2024-04-22 21:08:48,710 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [14588] - INFO - req_url:http://127.0.0.1:5000/sys_user/update_user
+2024-04-22 21:08:48,710 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [14588] - INFO - second:11
+2024-04-22 21:08:48,710 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 44 - [14588] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '1234567', 'new_password': '1234567', 'ensure_password': '123456'}
+2024-04-22 21:08:48,711 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [14588] - INFO - sql:select * from sys_user where user_code='chenhanwu'
+2024-04-22 21:08:48,713 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [14588] - ERROR - [全局异常]:旧密码不正确
+2024-04-22 21:09:36,686 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [23732] - INFO - req_url:http://127.0.0.1:5000/sys_user/update_user
+2024-04-22 21:09:36,686 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [23732] - INFO - second:47
+2024-04-22 21:09:36,686 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 44 - [23732] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '1234567', 'new_password': '12345689', 'ensure_password': '1231241'}
+2024-04-22 21:09:36,686 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [23732] - INFO - sql:select * from sys_user where user_code='chenhanwu'
+2024-04-22 21:09:36,689 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [23732] - ERROR - [全局异常]:旧密码不正确
+2024-04-22 21:10:19,173 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [13308] - INFO - req_url:http://127.0.0.1:5000/sys_user/update_user
+2024-04-22 21:10:19,173 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [13308] - INFO - second:42
+2024-04-22 21:10:19,173 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 44 - [13308] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '123456', 'new_password': '1234567', 'ensure_password': '1234567'}
+2024-04-22 21:10:19,173 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [13308] - INFO - sql:select * from sys_user where user_code='chenhanwu'
+2024-04-22 21:10:19,175 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 30 - [13308] - INFO - sql:update sys_user set user_code='chenhanwu' , pswd='1234567' , dates='2024-04-22 21:08:29.658783' where user_code = 'chenhanwu'
+2024-04-22 21:10:48,613 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [24588] - INFO - req_url:http://127.0.0.1:5000/sys_user/logout
+2024-04-22 21:10:48,613 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [24588] - INFO - second:29
+2024-04-22 21:10:48,613 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 34 - [24588] - INFO - json_data:{'user_code': 'chenhanwu'}
+2024-04-22 21:10:58,989 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [17188] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:10:58,989 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [17188] - ERROR - [全局异常]:未登录
+2024-04-22 21:10:58,990 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [24628] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
+2024-04-22 21:10:58,992 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [24628] - ERROR - [全局异常]:未登录
+2024-04-22 21:11:06,217 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 66 - [19448] - INFO - 白名单url，不用校验session信息
+2024-04-22 21:11:06,218 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 25 - [19448] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '123456'}
+2024-04-22 21:11:06,218 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [19448] - INFO - sql:select * from sys_user where user_code='chenhanwu'
+2024-04-22 21:11:06,220 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [19448] - ERROR - [全局异常]:密码错误
+2024-04-22 21:11:11,667 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 66 - [9148] - INFO - 白名单url，不用校验session信息
+2024-04-22 21:11:11,667 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 25 - [9148] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '1234567'}
+2024-04-22 21:11:11,667 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [9148] - INFO - sql:select * from sys_user where user_code='chenhanwu'
+2024-04-22 21:11:11,669 - logger - E:\document\pycharmProject\mobile-back\src\service\sys_user_service.py - 23 - [9148] - INFO - user_dto:{'user_code': 'chenhanwu', 'pswd': '1234567', 'e_mail': '120668', 'stu_id': '20171', 'question': '你是谁？', 'answer': '我是我', 'dates': datetime.datetime(2024, 4, 22, 21, 8, 30), 'session_id': '3ce48160-1e45-4b9e-98fd-1c0189f11d8e'}
+2024-04-22 21:11:11,729 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [27576] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:11:11,729 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [27576] - INFO - second:0
+2024-04-22 21:11:11,730 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [27576] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-22 21:11:11,730 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [27576] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:11:11,732 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [13144] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
+2024-04-22 21:11:11,733 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [13144] - INFO - second:0
+2024-04-22 21:11:11,733 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [13144] - INFO - data:{'order_col': 'brand_score'}
+2024-04-22 21:11:11,733 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [13144] - INFO - sql:select * from mobile_company order by brand_score desc 
+2024-04-22 21:11:22,214 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [15108] - INFO - req_url:http://127.0.0.1:5000/sys_user/update_user
+2024-04-22 21:11:22,214 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [15108] - INFO - second:10
+2024-04-22 21:11:22,215 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 44 - [15108] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '1234567', 'new_password': '123456', 'ensure_password': '123456'}
+2024-04-22 21:11:22,215 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [15108] - INFO - sql:select * from sys_user where user_code='chenhanwu'
+2024-04-22 21:11:22,216 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 30 - [15108] - INFO - sql:update sys_user set user_code='chenhanwu' , pswd='123456' , dates='2024-04-22 21:08:29.658783' where user_code = 'chenhanwu'
+2024-04-22 21:11:24,795 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [19996] - INFO - req_url:http://127.0.0.1:5000/sys_user/logout
+2024-04-22 21:11:24,796 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [19996] - INFO - second:2
+2024-04-22 21:11:24,796 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 34 - [19996] - INFO - json_data:{'user_code': 'chenhanwu'}
+2024-04-22 21:11:26,945 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [16084] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:11:26,946 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [16084] - ERROR - [全局异常]:未登录
+2024-04-22 21:11:26,947 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [26692] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
+2024-04-22 21:11:26,949 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [26692] - ERROR - [全局异常]:未登录
+2024-04-22 21:11:29,708 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 66 - [27460] - INFO - 白名单url，不用校验session信息
+2024-04-22 21:11:29,708 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 25 - [27460] - INFO - json_data:{'user_code': 'chenhanwu', 'pswd': '123456'}
+2024-04-22 21:11:29,708 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [27460] - INFO - sql:select * from sys_user where user_code='chenhanwu'
+2024-04-22 21:11:29,710 - logger - E:\document\pycharmProject\mobile-back\src\service\sys_user_service.py - 23 - [27460] - INFO - user_dto:{'user_code': 'chenhanwu', 'pswd': '123456', 'e_mail': '120668', 'stu_id': '20171', 'question': '你是谁？', 'answer': '我是我', 'dates': datetime.datetime(2024, 4, 22, 21, 8, 30), 'session_id': 'c94456a5-404d-4202-bdcb-32137b2faf77'}
+2024-04-22 21:11:29,748 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [13796] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:11:29,748 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [13796] - INFO - second:0
+2024-04-22 21:11:29,749 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [13796] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-22 21:11:29,749 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [13796] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:11:29,750 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [23176] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
+2024-04-22 21:11:29,750 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [23176] - INFO - second:0
+2024-04-22 21:11:29,750 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [23176] - INFO - data:{'order_col': 'brand_score'}
+2024-04-22 21:11:29,750 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [23176] - INFO - sql:select * from mobile_company order by brand_score desc 
+2024-04-22 21:11:31,444 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [14036] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
+2024-04-22 21:11:31,444 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [14036] - INFO - second:1
+2024-04-22 21:11:31,445 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [14036] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
+2024-04-22 21:11:31,445 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [14036] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
+2024-04-22 21:11:31,446 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [16788] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_occup
+2024-04-22 21:11:31,446 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [16788] - INFO - second:0
+2024-04-22 21:11:31,446 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [16788] - INFO - data:{'limit': '15', 'order_col': 'brand_occup'}
+2024-04-22 21:11:31,446 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [16788] - INFO - sql:select * from mobile_company order by brand_occup desc  limit 15
+2024-04-22 21:11:31,447 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [8352] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=good_score
+2024-04-22 21:11:31,448 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [8352] - INFO - second:0
+2024-04-22 21:11:31,448 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [8352] - INFO - data:{'limit': '15', 'order_col': 'good_score'}
+2024-04-22 21:11:31,448 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [8352] - INFO - sql:select * from mobile_company order by good_score desc  limit 15
+2024-04-22 21:11:31,455 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [26480] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
+2024-04-22 21:11:31,455 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [26480] - INFO - second:0
+2024-04-22 21:11:31,455 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [26480] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
+2024-04-22 21:11:31,455 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [26480] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
+2024-04-22 21:11:33,283 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [14044] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:11:33,283 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [14044] - INFO - second:1
+2024-04-22 21:11:33,284 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [14044] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-22 21:11:33,284 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [14044] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:11:33,293 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [19168] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:11:33,293 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [19168] - INFO - second:0
+2024-04-22 21:11:33,293 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [19168] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-22 21:11:33,293 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [19168] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:11:34,773 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [24556] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:11:34,774 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [24556] - INFO - second:1
+2024-04-22 21:11:34,774 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [24556] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-22 21:11:34,774 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [24556] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:11:36,402 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [22396] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=&company_type=&cpu=
+2024-04-22 21:11:36,402 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [22396] - INFO - second:1
+2024-04-22 21:11:36,402 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [22396] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': '', 'company_type': '', 'cpu': ''}
+2024-04-22 21:11:36,402 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [22396] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:14:14,692 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [27424] - INFO - req_url:http://127.0.0.1:5000/sys_user/update_user
+2024-04-22 21:14:14,693 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [27424] - INFO - second:158
+2024-04-22 21:14:14,693 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 44 - [27424] - INFO - json_data:{'user_code': 'chenhanwu22', 'pswd': '123456', 'new_password': '', 'ensure_password': ''}
+2024-04-22 21:14:14,693 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [27424] - INFO - sql:select * from sys_user where user_code='chenhanwu22'
+2024-04-22 21:14:14,696 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 46 - [27424] - ERROR - [全局异常]:找不到该用户
+2024-04-22 21:14:57,209 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [892] - INFO - req_url:http://127.0.0.1:5000/sys_user/update_user
+2024-04-22 21:14:57,209 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [892] - INFO - second:42
+2024-04-22 21:14:57,209 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 44 - [892] - INFO - json_data:{'user_code': 'chenhanwu222', 'pswd': '123456', 'new_password': '123456', 'ensure_password': '123456'}
+2024-04-22 21:14:57,209 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [892] - INFO - sql:select * from sys_user where user_code='chenhanwu222'
+2024-04-22 21:14:57,211 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 30 - [892] - INFO - sql:update sys_user set user_code='chenhanwu222' , pswd='123456' , dates='2024-04-22 21:08:29.658783' where user_code = 'chenhanwu222'
+2024-04-22 21:15:40,936 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [13388] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-22 21:15:40,936 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [13388] - INFO - second:43
+2024-04-22 21:15:40,936 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [13388] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-22 21:15:40,936 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [13388] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:15:42,144 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [3672] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=10&order_col=id&not_none_col=img_url,cpu&type=&company_type=&cpu=
+2024-04-22 21:15:42,144 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [3672] - INFO - second:1
+2024-04-22 21:15:42,144 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [3672] - INFO - data:{'limit': '10', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': '', 'company_type': '', 'cpu': ''}
+2024-04-22 21:15:42,144 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 41 - [3672] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 10
+2024-04-22 21:15:44,068 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [24312] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
+2024-04-22 21:15:44,068 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [24312] - INFO - second:1
+2024-04-22 21:15:44,068 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [24312] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
+2024-04-22 21:15:44,069 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [24312] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
+2024-04-22 21:15:44,069 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [16144] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_occup
+2024-04-22 21:15:44,070 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [16144] - INFO - second:0
+2024-04-22 21:15:44,070 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [16144] - INFO - data:{'limit': '15', 'order_col': 'brand_occup'}
+2024-04-22 21:15:44,070 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [16144] - INFO - sql:select * from mobile_company order by brand_occup desc  limit 15
+2024-04-22 21:15:44,071 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [6656] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=good_score
+2024-04-22 21:15:44,071 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [6656] - INFO - second:0
+2024-04-22 21:15:44,072 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [6656] - INFO - data:{'limit': '15', 'order_col': 'good_score'}
+2024-04-22 21:15:44,072 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [6656] - INFO - sql:select * from mobile_company order by good_score desc  limit 15
+2024-04-22 21:15:44,078 - logger - E:\document\pycharmProject\mobile-back\src\App.py - 68 - [18252] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
+2024-04-22 21:15:44,078 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [18252] - INFO - second:0
+2024-04-22 21:15:44,078 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [18252] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
+2024-04-22 21:15:44,078 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [18252] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15

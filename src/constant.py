@@ -10,7 +10,7 @@ SECOND_THREAD_CORE_NUM = 20
 # 日志打印级别
 LOG_LEVEL = logging.INFO
 # session 失效时间 60s,配置为-1 则永远不失效
-SESSION_TIME_OUT = 120
+SESSION_TIME_OUT = -1
 # 是否开启session校验
 SESSION_VALID = True
 # 白名单列表

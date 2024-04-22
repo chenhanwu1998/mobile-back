@@ -43,7 +43,16 @@ def add_user(user: SysUser) -> bool:
     return sys_user_dao.add_user(user)
 
 
-def update_by_user_code(user: SysUser) -> bool:
+def update_by_user_code(user: SysUser, new_pswd: str) -> bool:
     if string_utils.is_empty(user.user_code):
         raise Exception("用户编码为空")
+    if not string_utils.is_empty(user.pswd):
+        old_user_list = sys_user_dao.select_user_by_condition(SysUser(user_code=user.user_code))
+        if old_user_list is None or len(old_user_list) == 0:
+            raise Exception("找不到该用户")
+        else:
+            old_user = old_user_list[0]
+            if old_user.pswd != user.pswd:
+                raise Exception("旧密码不正确")
+    user.pswd = new_pswd
     return sys_user_dao.update_by_user_code(user)

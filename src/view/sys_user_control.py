@@ -3,7 +3,7 @@ from flask import request, jsonify, Blueprint
 from src.dto.Result import Result
 from src.entity.SysUser import SysUser
 from src.service import sys_user_service
-from src.utils import common_utils
+from src.utils import common_utils, convert_utils
 from src.utils.loging_utils import logger
 
 sys_user_route = Blueprint('sys_user_route', __name__)
@@ -40,10 +40,13 @@ def logout():
 # 定义一个接口
 @sys_user_route.route('/sys_user/update_user', methods=['POST'])
 def update_user():
-    json_data = request.json
+    json_data = dict(request.json)
     logger.info("json_data:" + str(json_data))
-    user = SysUser(**json_data)
-    result = sys_user_service.update_by_user_code(user)
+    if "new_password" not in json_data.keys():
+        raise Exception("缺失新密码")
+    user_dict = convert_utils.convert_dict(SysUser(), json_data)
+    user = SysUser(**user_dict)
+    result = sys_user_service.update_by_user_code(user, json_data["new_password"])
     return jsonify(Result.success(result).__dict__)
 
 
