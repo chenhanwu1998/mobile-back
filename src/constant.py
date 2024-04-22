@@ -10,11 +10,11 @@ SECOND_THREAD_CORE_NUM = 20
 # 日志打印级别
 LOG_LEVEL = logging.INFO
 # session 失效时间 60s,配置为-1 则永远不失效
-SESSION_TIME_OUT = 60
+SESSION_TIME_OUT = 120
 # 是否开启session校验
-SESSION_VALID = False
+SESSION_VALID = True
 # 白名单列表
-WHITE_URL_LIST = ["/sys_user/login"]
+WHITE_URL_LIST = ["/sys_user/login", "/sys_user/add_user"]
 # 是否开启爬虫任务
 CLIMB_TASK = False
 CLIMB_ONCE = False

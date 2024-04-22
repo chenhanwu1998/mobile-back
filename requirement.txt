@@ -1,5 +1,5 @@
 flask
 flask-cors
-sqlalchemy
 pymysql
 apscheduler
+sqlalchemy==1.4.39

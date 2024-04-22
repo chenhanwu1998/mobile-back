@@ -15,7 +15,7 @@ from view import register_blueprints
 
 app = Flask(__name__)
 # 设置跨域
-CORS(app)
+CORS(app, resources="/*")
 # 注册所有蓝图（即接口）
 register_blueprints(app)
 
@@ -44,9 +44,9 @@ def index():
 def handle_exception(error):
     trace = traceback.format_exc()
     logger.error("[全局异常]:" + str(error))
-    logger.error("[trace]:" + trace)
+    # logger.error("[trace]:" + trace)
     if isinstance(error, AuthException):
-        return jsonify(Result.fail_401(str(error)).__dict__), 401
+        return jsonify(Result.fail_401(str(error)).__dict__), 200
     return jsonify(Result.fail(str(error)).__dict__), 200
 
 
@@ -55,12 +55,17 @@ def handle_exception(error):
 def interceptor():
     if not SESSION_VALID:
         return
+    # 跨域校验请求的OPTIONS 不需要校验session
+    if "OPTIONS" == request.method:
+        return
     # logger.info("header:" + str(request.headers))
+    # logger.info("method:" + request.method)
     req_url = request.url
     for url in WHITE_URL_LIST:
         if req_url.endswith(url):
             logger.info("白名单url，不用校验session信息")
             return
+    logger.info("req_url:" + req_url)
     if SESSION_ID not in list(request.headers.keys()):
         raise AuthException("缺乏session登录信息")
     session_id = request.headers[SESSION_ID]
@@ -71,6 +76,15 @@ def interceptor():
         raise AuthException("登录过期了")
     # 刷新session时间
     cache.refresh_cache(session_id)
+
+
+# @app.after_request
+# def func_res(resp):
+#     res = make_response(resp)
+#     res.headers['Access-Control-Allow-Origin'] = '*'
+#     res.headers['Access-Control-Allow-Methods'] = 'OPTIONS, GET, POST, PUT, DELETE'
+#     res.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type'
+#     return res
 
 
 if __name__ == '__main__':
