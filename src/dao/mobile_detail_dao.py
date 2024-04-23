@@ -1,4 +1,5 @@
 from src.dao.SingleUtils import SingleUtils
+from src.dto.MobileDetailDTO import MobileDetailDTO
 from src.entity.MobileDetail import MobileDetail
 from src.utils import string_utils, common_utils
 from src.utils.loging_utils import logger
@@ -42,6 +43,61 @@ def select_mobile_detail_by_condition(mobile: MobileDetail, order_col: str = Non
     return trans_result(sql)
 
 
+def select_mobile_num_every_company():
+    sql = '''
+    select count(*) as mobile_num, company_type
+        from mobile_detail
+        where company_type is not null
+        group by company_type
+        order by mobile_num desc
+    '''
+    return trans_result_dto(sql, ["company_type", "mobile_num"])
+
+
+def select_cpu_num_all(limit_num: int = 200):
+    sql = f'''
+            select count(*) as cpu_num, cpu
+        from mobile_detail
+        where cpu is not null
+          and cpu != 'None'
+        group by cpu
+        order by cpu_num desc
+        '''
+    if limit_num is not None:
+        sql += f"  limit {limit_num}"
+    return trans_result_dto(sql, ["cpu_num", "cpu"])
+
+
+def select_score_by_limit(limit_num: int = 20):
+    sql = f'''
+            select id,
+               company_type,
+               type,
+               reference_price,
+               score,
+               cost_performance,
+               performance,
+               continuation,
+               appearance,
+               photograph,
+               review_count
+        from mobile_detail
+        where score != 0
+          and reference_price != 0
+          and cost_performance != 0
+          and performance != 0
+          and continuation != 0
+          and appearance != 0
+          and photograph != 0
+          and company_type is not null
+        order by review_count desc 
+        '''
+    if limit_num is not None:
+        sql += f"  limit {limit_num}"
+    return trans_result_dto(sql, ['id', 'company_type', 'type', 'reference_price', 'score', 'cost_performance',
+                                  'performance', 'continuation', 'appearance', 'photograph', 'review_count'])
+
+
 def select_by_mobile_ids(mobile_ids: list) -> list[int]:
     value_str = string_utils.join(mobile_ids)
     sql = f"select id from mobile_detail where id in ({value_str})"
@@ -81,6 +137,17 @@ def trans_result(sql: str) -> list[MobileDetail]:
     mobile_list = []
     for temp in result:
         mobile_list.append(MobileDetail(*temp))
+    return mobile_list
+
+
+def trans_result_dto(sql: str, target_col_list: list) -> list[MobileDetailDTO]:
+    conn = SingleUtils.mysql_utils.get_connect()
+    temp_result = conn.execute(sql)
+    result = temp_result.columns(*target_col_list)
+    mobile_list = []
+    for temp in result:
+        temp_dict = dict(zip(target_col_list, temp))
+        mobile_list.append(MobileDetailDTO(**temp_dict))
     return mobile_list
 
 

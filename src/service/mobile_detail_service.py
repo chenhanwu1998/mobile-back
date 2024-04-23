@@ -33,3 +33,15 @@ def save_or_update(mobile_detail_list: list[MobileDetail]) -> bool:
     if len(update_mobile_list) != 0:
         mobile_detail_dao.update_batch(update_mobile_list)
     return True
+
+
+def select_mobile_num_every_company():
+    return mobile_detail_dao.select_mobile_num_every_company()
+
+
+def select_cpu_num_all(limit_num: int = 200):
+    return mobile_detail_dao.select_cpu_num_all(limit_num)
+
+
+def select_score_by_limit(limit_num: int = 20):
+    return mobile_detail_dao.select_score_by_limit(limit_num)

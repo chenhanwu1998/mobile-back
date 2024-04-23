@@ -35,3 +35,31 @@ def select_mobile_detail_by_condition():
     result = mobile_detail_service.select_mobile_detail_by_condition(mobile_detail, order_col, limit, not_none_col,
                                                                      low_price, high_price)
     return jsonify(Result.success(common_utils.trans_obj_list(result)).__dict__)
+
+
+@mobile_detail_route.route('/mobile_detail/select_mobile_num_every_company', methods=['GET'])
+def select_mobile_num_every_company():
+    result = mobile_detail_service.select_mobile_num_every_company()
+    return jsonify(Result.success(common_utils.trans_obj_list(result)).__dict__)
+
+
+@mobile_detail_route.route('/mobile_detail/select_cpu_num_all', methods=['GET'])
+def select_cpu_num_all():
+    data = request.args.to_dict()
+    logger.info("data:" + str(data))
+    limit = None
+    if "limit" in data.keys() and data["limit"] is not None:
+        limit = int(data["limit"])
+    result = mobile_detail_service.select_cpu_num_all(limit)
+    return jsonify(Result.success(common_utils.trans_obj_list(result)).__dict__)
+
+
+@mobile_detail_route.route('/mobile_detail/select_score_by_limit', methods=['GET'])
+def select_score_by_limit():
+    data = request.args.to_dict()
+    logger.info("data:" + str(data))
+    limit = None
+    if "limit" in data.keys() and data["limit"] is not None:
+        limit = int(data["limit"])
+    result = mobile_detail_service.select_score_by_limit(limit)
+    return jsonify(Result.success(common_utils.trans_obj_list(result)).__dict__)

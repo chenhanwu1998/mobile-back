@@ -43,6 +43,7 @@ def index():
 @app.errorhandler(Exception)
 def handle_exception(error):
     trace = traceback.format_exc()
+    logger.info("request.url:" + request.url)
     logger.error("[全局异常]:" + str(error))
     logger.error("[trace]:" + trace)
     if isinstance(error, AuthException):

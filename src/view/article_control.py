@@ -1,5 +1,6 @@
-from flask import request, jsonify, Blueprint
+from flask import request, jsonify, Blueprint, send_file
 
+from src.constant import forum_photo_dir_path
 from src.dto.Result import Result
 from src.entity.Article import Article
 from src.service import article_service
@@ -51,3 +52,33 @@ def select_article_by_condition():
     article_data = Article(**data_dict)
     result_list = article_service.select_article_by_condition(article_data, limit)
     return jsonify(Result.success(common_utils.trans_article_list(result_list)).__dict__)
+
+
+@article_route.route('/article/upload_article_photo', methods=['POST'])
+def upload_article_photo():
+    if "file" not in request.files:
+        raise Exception("缺乏论坛图片")
+    file = request.files['file']
+    logger.info("file_name:" + file.filename)
+    file_path = forum_photo_dir_path + "/" + file.filename
+    file.save(file_path)
+    return jsonify(Result.success(file_path).__dict__)
+
+
+# 获取base64图片
+@article_route.route('/article/get_base64_image', methods=['GET'])
+def get_base64_img():
+    params = request.args.to_dict()
+    if "img_path" not in params.keys():
+        raise Exception("缺乏图片路径")
+    base64_image = common_utils.trans_photo(params["img_path"])
+    return base64_image
+
+
+# 直接获取二进制图片
+@article_route.route('/article/get_img', methods=['GET'])
+def get_img():
+    params = request.args.to_dict()
+    if "img_path" not in params.keys():
+        raise Exception("缺乏图片路径")
+    return send_file(params["img_path"], mimetype='image/jpeg')

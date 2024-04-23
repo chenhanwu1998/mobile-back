@@ -32,6 +32,7 @@ mobile_type_data_path = PROJECT_DIR + 'data/mobile/mobile_type.csv'  # 存放各
 mobile_data_path = PROJECT_DIR + 'data/mobile/mobile_data'  # 存放各种手机url以及简单参数的目录
 evaluate_data_path = PROJECT_DIR + 'data/mobile/mobile_evaluate'  # 存放评论的目录
 param_data_path = PROJECT_DIR + 'data/mobile/mobile_param'  # 存放参数的目录
+forum_photo_dir_path = PROJECT_DIR + 'data/forum/photo'  # 论坛图片存放位置
 header = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
 }
