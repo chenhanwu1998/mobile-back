@@ -1,3 +1,5 @@
+import datetime
+
 from flask import request, jsonify, Blueprint
 
 from src.dto.Result import Result
@@ -16,6 +18,7 @@ def add_comment():
     data = request.json
     logger.info("data:" + str(data))
     comment = Comment(**data)
+    comment.update_time = datetime.datetime.now()
     result = comment_service.add_comment(comment)
     return jsonify(Result.success(result).__dict__)
 
@@ -27,6 +30,7 @@ def update_comment():
     data = request.json
     logger.info("data:" + str(data))
     comment = Comment(**data)
+    comment.update_time = datetime.datetime.now()
     result = comment_service.update_article_by_id(comment)
     return jsonify(Result.success(result).__dict__)
 

@@ -1,3 +1,6 @@
+import uuid
+from datetime import datetime
+
 from flask import request, jsonify, Blueprint, send_file
 
 from src.constant import forum_photo_dir_path
@@ -13,9 +16,17 @@ article_route = Blueprint('article_route', __name__)
 # 添加文章
 @article_route.route('/article/add_article', methods=['POST'])
 def add_article():
-    data = request.json
-    logger.info("data:", data)
+    data = request.form.to_dict()
+    logger.info("data:" + str(data))
+    if "file" not in request.files.keys():
+        raise Exception("缺乏论坛图片")
+    file = request.files['file']
+    file_path = forum_photo_dir_path + "/" + str(uuid.uuid4()) + "-" + file.filename
+    file.save(file_path)
+    request.from_values()
     article_data = Article(**data)
+    article_data.article_time = datetime.now()
+    article_data.article_picture = file_path
     result = article_service.add_article(article_data)
     return jsonify(Result.success(result).__dict__)
 

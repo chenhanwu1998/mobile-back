@@ -6,7 +6,7 @@ from src.utils.loging_utils import logger
 
 def select_article_by_condition(article: Article, limit: int = None) -> list:
     sql = "select * from article"
-    where_sql = common_utils.get_where_sql(article)
+    where_sql = common_utils.get_where_sql(article, like_list=['article_content'])
     if not string_utils.is_empty(where_sql):
         sql += " where " + where_sql
     sql += " order by article_time desc"

@@ -13,6 +13,19 @@ def select_user_by_condition(user: SysUser) -> list:
     return trans_result(sql)
 
 
+def select_user_photo_dict(user_code_list: set) -> dict:
+    if user_code_list is None or len(user_code_list) == 0:
+        return dict()
+    value_str = string_utils.join(user_code_list, trans_str=True)
+    sql = f"select * from sys_user where  user_code in ({value_str})"
+    logger.info("sql:" + sql)
+    user_list = trans_result(sql)
+    data_dict = dict()
+    for user in user_list:
+        data_dict[user.user_code] = user.user_photo
+    return data_dict
+
+
 def add_user(user: SysUser) -> bool:
     entity_dict = user.__dict__
     key_str = string_utils.join(list(entity_dict.keys()), False)

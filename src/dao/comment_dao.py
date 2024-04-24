@@ -27,7 +27,7 @@ def add_comment(comment: Comment) -> bool:
     entity_dict = comment.__dict__
     key_str, value_str = string_utils.join_dict_list(entity_dict)
     sql = f"insert into comment ({key_str}) values ({value_str})"
-    logger("sql:" + sql)
+    logger.info("sql:" + sql)
     return SingleUtils.mysql_utils.update_sql(sql)
 
 
@@ -36,13 +36,13 @@ def update_article_by_id(comment: Comment) -> bool:
         return False
     value_str = string_utils.join_dict(comment.__dict__)
     sql = f"update comment set {value_str} where comment_id = '{comment.comment_id}'"
-    logger("sql:" + sql)
+    logger.info("sql:" + sql)
     return SingleUtils.mysql_utils.update_sql(sql)
 
 
 def delete_comment_by_id(comment_id: int) -> bool:
     sql = f"delete from comment where comment_id ={comment_id}"
-    logger("sql:" + sql)
+    logger.info("sql:" + sql)
     return SingleUtils.mysql_utils.update_sql(sql)
 
 

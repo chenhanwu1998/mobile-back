@@ -1,7 +1,7 @@
 import logging
 
-# 调试单个代码的时候改为  ../../   启动整个APP的时候改为../
-PROJECT_DIR = "../"
+# 调试单个代码的时候改为  ../../   启动整个APP的时候改为./
+PROJECT_DIR = "./"
 
 # 爬虫线程数量，根据电脑cpu性能而定
 THREAD_CORE_NUM = 10

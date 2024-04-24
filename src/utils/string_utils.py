@@ -16,8 +16,7 @@ def join(str_list: list, trans_str=False, sep: str = ",") -> str:
         if index != length - 1:
             result += " " + sep + " "
         index += 1
-
-    result = result.strip().strip(sep)
+    # result = result.strip().strip(sep)
     return result
 
 

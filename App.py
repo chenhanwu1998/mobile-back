@@ -11,7 +11,7 @@ from src.constant import WHITE_URL_LIST, SESSION_ID, SESSION_VALID, CLIMB_TASK, 
 from src.dto.Result import Result
 from src.exception.AuthException import AuthException
 from src.utils.loging_utils import logger
-from view import register_blueprints
+from src.view import register_blueprints
 
 app = Flask(__name__)
 # 设置跨域
