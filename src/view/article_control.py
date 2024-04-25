@@ -21,7 +21,7 @@ def add_article():
     if "file" not in request.files.keys():
         raise Exception("缺乏论坛图片")
     file = request.files['file']
-    file_path = forum_photo_dir_path + "/" + str(uuid.uuid4()) + "-" + file.filename
+    file_path = forum_photo_dir_path + "/" + str(uuid.uuid4()) + "_" + file.filename
     file.save(file_path)
     request.from_values()
     article_data = Article(**data)

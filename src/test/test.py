@@ -1,4 +1,5 @@
 import base64
+import re
 
 
 def trans_photo():
@@ -7,7 +8,27 @@ def trans_photo():
     return encode_str
 
 
+def read_py_pkg():
+    file = open("../../data/test.txt", 'r', encoding='utf-8')
+    lines = file.readlines()
+    file.close()
+    cell_list = []
+    for line in lines:
+        cells = re.split(" +", line.strip())
+        if "K" in cells[0]:
+            cells[0] = float(cells[0].replace("K", ""))
+        elif "M" in cells[0]:
+            cells[0] = float(cells[0].replace("M", "")) * 1000
+        print(cells)
+        cell_list.append(cells)
+    cell_list = sorted(cell_list, key=lambda k: k[0])
+    for temp in cell_list:
+        print(temp)
+
+
 if __name__ == '__main__':
-    prefix = "data:image/jpg;base64,"
-    base64_img = trans_photo()
-    print(prefix + base64_img)
+    # prefix = "data:image/jpg;base64,"
+    # base64_img = trans_photo()
+    # print(prefix + base64_img)
+    read_py_pkg()
+    pass

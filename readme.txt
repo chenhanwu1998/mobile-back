@@ -7,3 +7,12 @@ climb: 定时爬虫
 sql:数据建表语句和修改语句
 
 注:单个文件执行sql调试的时候需要把修改constant.PROJECT_DIR = "../../"，全局执行App就是constant.PROJECT_DIR = "../"
+打包 pyinstaller install App.py
+
+#打成一个包  --exclude-module PyQt5
+pyinstaller --onefile --exclude-module torch   --exclude-module matplotlib   --exclude-module scipy  App.py
+
+pyinstaller App.spec
+
+['torch', 'matplotlib', 'scipy','qtpy','QtPy','Sphinx','sphinx','docutils','scikit-learn','scipy','PyQt5',
+                'PyQt5-sip','PyQtWebEngine','pygments','docutils','cryptography'],

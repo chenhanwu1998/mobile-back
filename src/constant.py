@@ -10,11 +10,11 @@ SECOND_THREAD_CORE_NUM = 20
 # 日志打印级别
 LOG_LEVEL = logging.INFO
 # session 失效时间 60s,配置为-1 则永远不失效
-SESSION_TIME_OUT = -1
+SESSION_TIME_OUT = 120
 # 是否开启session校验
-SESSION_VALID = False
+SESSION_VALID = True
 # 白名单列表
-WHITE_URL_LIST = ["/sys_user/login", "/sys_user/add_user"]
+WHITE_URL_LIST = ["/sys_user/login", "/sys_user/add_user", "/article/get_img", "/article/get_base64_image"]
 # 是否开启爬虫任务
 CLIMB_TASK = False
 CLIMB_ONCE = False
@@ -33,6 +33,7 @@ mobile_data_path = PROJECT_DIR + 'data/mobile/mobile_data'  # 存放各种手机
 evaluate_data_path = PROJECT_DIR + 'data/mobile/mobile_evaluate'  # 存放评论的目录
 param_data_path = PROJECT_DIR + 'data/mobile/mobile_param'  # 存放参数的目录
 forum_photo_dir_path = PROJECT_DIR + 'data/forum/photo'  # 论坛图片存放位置
+uer_photo_dir_path = PROJECT_DIR + "data/user_photo"
 header = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
 }
