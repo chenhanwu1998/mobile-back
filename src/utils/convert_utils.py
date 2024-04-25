@@ -1,6 +1,8 @@
 from src.dto.ArticleDTO import ArticleDTO
+from src.dto.CommentDTO import CommentDTO
 from src.dto.SysUserDTO import SysUserDTO
 from src.entity.Article import Article
+from src.entity.Comment import Comment
 from src.entity.SysUser import SysUser
 
 
@@ -12,6 +14,11 @@ def convert_user(user: SysUser) -> SysUserDTO:
 def convert_article_to_dto(article: Article) -> ArticleDTO:
     article_dto = ArticleDTO(**article.__dict__)
     return article_dto
+
+
+def convert_comment_to_dto(comment: Comment) -> CommentDTO:
+    comment_dto = CommentDTO(**comment.__dict__)
+    return comment_dto
 
 
 def convert_dict(obj: object, data_dict: dict) -> dict:

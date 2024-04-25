@@ -4,11 +4,14 @@ from src.utils import string_utils, common_utils
 from src.utils.loging_utils import logger
 
 
-def select_comment_by_condition(comment: Comment) -> list:
+def select_comment_by_condition(comment: Comment, limit: int = None) -> list:
     sql = "select * from comment"
     where_sql = common_utils.get_where_sql(comment)
     if not string_utils.is_empty(where_sql):
         sql += " where " + where_sql
+    sql += " order by update_time desc"
+    if limit is not None:
+        sql += f" limit {limit}"
     logger.info("sql:" + sql)
     return trans_result(sql)
 
@@ -31,7 +34,7 @@ def add_comment(comment: Comment) -> bool:
     return SingleUtils.mysql_utils.update_sql(sql)
 
 
-def update_article_by_id(comment: Comment) -> bool:
+def update_comment_by_id(comment: Comment) -> bool:
     if comment.comment_id is None:
         return False
     value_str = string_utils.join_dict(comment.__dict__)

@@ -5,7 +5,7 @@ from flask import request, jsonify, Blueprint
 from src.dto.Result import Result
 from src.entity.Comment import Comment
 from src.service import comment_service
-from src.utils import common_utils
+from src.utils import common_utils, convert_utils
 from src.utils.loging_utils import logger
 
 comment_route = Blueprint('comment_route', __name__)
@@ -31,7 +31,7 @@ def update_comment():
     logger.info("data:" + str(data))
     comment = Comment(**data)
     comment.update_time = datetime.datetime.now()
-    result = comment_service.update_article_by_id(comment)
+    result = comment_service.update_comment_by_id(comment)
     return jsonify(Result.success(result).__dict__)
 
 
@@ -52,6 +52,11 @@ def select_comment_by_condition():
     # 处理请求的逻辑
     data = request.args.to_dict()
     logger.info("data:" + str(data))
-    comment = Comment(**data)
-    result_list = comment_service.select_comment_by_condition(comment)
+    limit = None
+    if "limit" in data.keys():
+        limit = data["limit"]
+
+    data_dict = convert_utils.convert_dict(Comment(), data)
+    comment = Comment(**data_dict)
+    result_list = comment_service.select_comment_by_condition(comment, limit)
     return jsonify(Result.success(common_utils.trans_obj_list(result_list)).__dict__)
