@@ -59,18 +59,18 @@ def interceptor():
     # 跨域校验请求的OPTIONS 不需要校验session
     if "OPTIONS" == request.method:
         return
-    # logger.info("header:" + str(request.headers))
-    # logger.info("method:" + request.method)
+    logger.debug("header:" + str(request.headers))
+    logger.debug("method:" + request.method)
     req_url = request.url
     for url in WHITE_URL_LIST:
-        if req_url.endswith(url):
-            logger.info("白名单url，不用校验session信息")
+        if url in req_url:
+            logger.debug("白名单url，不用校验session信息")
             return
     logger.info("req_url:" + req_url)
     if SESSION_ID not in list(request.headers.keys()):
         raise AuthException("缺乏session登录信息")
     session_id = request.headers[SESSION_ID]
-    # logger.info(SESSION_ID + ":" + str(session_id))
+    logger.debug(SESSION_ID + ":" + str(session_id))
     if not cache.check_session_id(session_id):
         raise AuthException("未登录")
     if cache.check_expired(session_id):

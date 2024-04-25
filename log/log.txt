@@ -1,0 +1,143 @@
+2024-04-25 22:32:45,641 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 29 - [26292] - INFO - json_data:{'user_code': 'zhangzhen', 'e_mail': '231321@qq.com', 'pswd': '123456'}
+2024-04-25 22:32:45,641 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [26292] - INFO - sql:select * from sys_user where user_code='zhangzhen'
+2024-04-25 22:32:45,662 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 34 - [26292] - INFO - sql:insert into sys_user (user_code , pswd , e_mail , stu_id , question , answer , dates , user_photo) values ('zhangzhen' , '123456' , '231321@qq.com' , '' , '' , '' , '2024-04-25 22:32:45.641794' , './data/user_photo/default-user-img4.jpg')
+2024-04-25 22:32:50,569 - logger - E:\document\pycharmProject\mobile-back\src\view\sys_user_control.py - 44 - [27068] - INFO - json_data:{'user_code': 'zhangzhen', 'pswd': '123456'}
+2024-04-25 22:32:50,569 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 12 - [27068] - INFO - sql:select * from sys_user where user_code='zhangzhen'
+2024-04-25 22:32:50,575 - logger - E:\document\pycharmProject\mobile-back\src\service\sys_user_service.py - 23 - [27068] - INFO - user_dto:{'user_code': 'zhangzhen', 'pswd': '123456', 'e_mail': '231321@qq.com', 'stu_id': '', 'question': '', 'answer': '', 'dates': datetime.datetime(2024, 4, 25, 22, 32, 46), 'user_photo': './data/user_photo/default-user-img4.jpg', 'session_id': '0148ac16-5b09-4ed1-aad8-5753f7f5a137'}
+2024-04-25 22:32:50,610 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [1032] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=40&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-25 22:32:50,611 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [1032] - INFO - second:0
+2024-04-25 22:32:50,611 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [1032] - INFO - data:{'limit': '40', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-25 22:32:50,611 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 42 - [1032] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 40
+2024-04-25 22:32:50,613 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [18368] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
+2024-04-25 22:32:50,613 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [18368] - INFO - second:0
+2024-04-25 22:32:50,613 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [18368] - INFO - data:{'order_col': 'brand_score'}
+2024-04-25 22:32:50,613 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [18368] - INFO - sql:select * from mobile_company order by brand_score desc 
+2024-04-25 22:32:52,206 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [13856] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:32:52,207 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [13856] - INFO - second:1
+2024-04-25 22:32:52,207 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [13856] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:32:52,207 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [13856] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:32:52,210 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [13856] - INFO - sql:select * from comment where article_id in (86 , 83 , 85 , 82 , 81) order by update_time desc
+2024-04-25 22:32:52,212 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [13856] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu')
+2024-04-25 22:32:59,242 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [13764] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:32:59,243 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [13764] - INFO - second:7
+2024-04-25 22:32:59,244 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [13764] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:32:59,244 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [13764] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:32:59,249 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [13764] - INFO - sql:select * from comment where article_id in (86 , 83 , 85 , 82 , 81) order by update_time desc
+2024-04-25 22:32:59,252 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [13764] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu')
+2024-04-25 22:33:24,543 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [24944] - INFO - req_url:http://127.0.0.1:5000/article/add_article
+2024-04-25 22:33:24,543 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [24944] - INFO - second:25
+2024-04-25 22:33:24,546 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 20 - [24944] - INFO - data:{'article_content': '哈哈哈大家好啊欢迎来讨论，这是我的新手机', 'user': 'zhangzhen'}
+2024-04-25 22:33:24,549 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 24 - [24944] - INFO - sql:insert into article (article_id , user , article_content , article_picture , article_time , like_num) values (87 , 'zhangzhen' , '哈哈哈大家好啊欢迎来讨论，这是我的新手机' , './data/forum/photo/d5b76571-4565-4860-90c5-5abc7bd04ae0_phone4.jpg' , '2024-04-25 22:33:24.548219' , 0)
+2024-04-25 22:33:24,578 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [8688] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:33:24,578 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [8688] - INFO - second:0
+2024-04-25 22:33:24,584 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [8688] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:33:24,585 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [8688] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:33:24,586 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [8688] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82) order by update_time desc
+2024-04-25 22:33:24,592 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [8688] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu' , 'zhangzhen')
+2024-04-25 22:33:27,311 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [12732] - INFO - req_url:http://127.0.0.1:5000/article/update_article
+2024-04-25 22:33:27,311 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [12732] - INFO - second:2
+2024-04-25 22:33:27,311 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 38 - [12732] - INFO - data:{'article_id': 87, 'like_num': 1}
+2024-04-25 22:33:27,311 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 33 - [12732] - INFO - sql:update article set article_id='87' , article_time='2024-04-25 22:33:27.311687' , like_num='1' where article_id = '87'
+2024-04-25 22:33:27,457 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [9348] - INFO - req_url:http://127.0.0.1:5000/article/update_article
+2024-04-25 22:33:27,457 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [9348] - INFO - second:0
+2024-04-25 22:33:27,457 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 38 - [9348] - INFO - data:{'article_id': 87, 'like_num': 2}
+2024-04-25 22:33:27,457 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 33 - [9348] - INFO - sql:update article set article_id='87' , article_time='2024-04-25 22:33:27.457700' , like_num='2' where article_id = '87'
+2024-04-25 22:33:27,610 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [27796] - INFO - req_url:http://127.0.0.1:5000/article/update_article
+2024-04-25 22:33:27,610 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [27796] - INFO - second:0
+2024-04-25 22:33:27,610 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 38 - [27796] - INFO - data:{'article_id': 87, 'like_num': 3}
+2024-04-25 22:33:27,610 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 33 - [27796] - INFO - sql:update article set article_id='87' , article_time='2024-04-25 22:33:27.610159' , like_num='3' where article_id = '87'
+2024-04-25 22:33:34,179 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [19104] - INFO - req_url:http://127.0.0.1:5000/comment/add_comment
+2024-04-25 22:33:34,179 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [19104] - INFO - second:6
+2024-04-25 22:33:34,180 - logger - E:\document\pycharmProject\mobile-back\src\view\comment_control.py - 19 - [19104] - INFO - data:{'comment_content': '大家快来看我的新手机', 'user': 'zhangzhen', 'article_id': 87, 'to_user': 'zhangzhen'}
+2024-04-25 22:33:34,182 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 30 - [19104] - INFO - sql:insert into comment (comment_id , comment_content , user , article_id , update_time , to_user) values (73 , '大家快来看我的新手机' , 'zhangzhen' , 87 , '2024-04-25 22:33:34.180844' , 'zhangzhen')
+2024-04-25 22:33:34,199 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [22724] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:33:34,199 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [22724] - INFO - second:0
+2024-04-25 22:33:34,199 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [22724] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:33:34,199 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [22724] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:33:34,199 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [22724] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82) order by update_time desc
+2024-04-25 22:33:34,199 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [22724] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu' , 'zhangzhen')
+2024-04-25 22:34:07,442 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [26888] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:34:07,442 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [26888] - INFO - second:33
+2024-04-25 22:34:07,442 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [26888] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:34:07,442 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [26888] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:34:07,442 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [26888] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82) order by update_time desc
+2024-04-25 22:34:07,450 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [26888] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu' , 'zhangzhen')
+2024-04-25 22:34:08,631 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [2476] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_detail_by_condition?limit=40&order_col=id&not_none_col=img_url,cpu&type=
+2024-04-25 22:34:08,632 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [2476] - INFO - second:1
+2024-04-25 22:34:08,634 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 15 - [2476] - INFO - data:{'limit': '40', 'order_col': 'id', 'not_none_col': 'img_url,cpu', 'type': ''}
+2024-04-25 22:34:08,634 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_detail_dao.py - 42 - [2476] - INFO - sql:select * from mobile_detail where img_url is not null and img_url !='None' and img_url !=''  and  cpu is not null and cpu !='None' and cpu !='' order by id desc  limit 40
+2024-04-25 22:34:08,640 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [2712] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?order_col=brand_score
+2024-04-25 22:34:08,640 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [2712] - INFO - second:0
+2024-04-25 22:34:08,640 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [2712] - INFO - data:{'order_col': 'brand_score'}
+2024-04-25 22:34:08,641 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [2712] - INFO - sql:select * from mobile_company order by brand_score desc 
+2024-04-25 22:34:10,060 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [25452] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:34:10,060 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [25452] - INFO - second:1
+2024-04-25 22:34:10,062 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [25452] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:34:10,062 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [25452] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:34:10,065 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [25452] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82) order by update_time desc
+2024-04-25 22:34:10,068 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [25452] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu' , 'zhangzhen')
+2024-04-25 22:34:11,198 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [29208] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:34:11,199 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [29208] - INFO - second:1
+2024-04-25 22:34:11,199 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [29208] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:34:11,200 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [29208] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:34:11,204 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [29208] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82) order by update_time desc
+2024-04-25 22:34:11,206 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [29208] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu' , 'zhangzhen')
+2024-04-25 22:34:17,247 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [6952] - INFO - req_url:http://127.0.0.1:5000/comment/add_comment
+2024-04-25 22:34:17,248 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [6952] - INFO - second:6
+2024-04-25 22:34:17,248 - logger - E:\document\pycharmProject\mobile-back\src\view\comment_control.py - 19 - [6952] - INFO - data:{'comment_content': '大家来呀', 'user': 'zhangzhen', 'article_id': 87, 'to_user': ''}
+2024-04-25 22:34:17,249 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 30 - [6952] - INFO - sql:insert into comment (comment_id , comment_content , user , article_id , update_time , to_user) values (74 , '大家来呀' , 'zhangzhen' , 87 , '2024-04-25 22:34:17.248797' , '')
+2024-04-25 22:34:17,260 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [11092] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:34:17,260 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [11092] - INFO - second:0
+2024-04-25 22:34:17,260 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [11092] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:34:17,260 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [11092] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:34:17,260 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [11092] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82) order by update_time desc
+2024-04-25 22:34:17,260 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [11092] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu' , 'zhangzhen')
+2024-04-25 22:34:20,552 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [20224] - INFO - req_url:http://127.0.0.1:5000/comment/delete_comment
+2024-04-25 22:34:20,552 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [20224] - INFO - second:3
+2024-04-25 22:34:20,552 - logger - E:\document\pycharmProject\mobile-back\src\view\comment_control.py - 43 - [20224] - INFO - data:{'comment_id': 73}
+2024-04-25 22:34:20,552 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 45 - [20224] - INFO - sql:delete from comment where comment_id =73
+2024-04-25 22:34:20,577 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [28368] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=5&article_content=
+2024-04-25 22:34:20,578 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [28368] - INFO - second:0
+2024-04-25 22:34:20,578 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [28368] - INFO - data:{'limit': '5', 'article_content': ''}
+2024-04-25 22:34:20,578 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [28368] - INFO - sql:select * from article order by article_time desc limit 5
+2024-04-25 22:34:20,580 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [28368] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82) order by update_time desc
+2024-04-25 22:34:20,587 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [28368] - INFO - sql:select * from sys_user where  user_code in ('zhao' , 'chenhanwu78' , 'chenhanwu' , 'zhangzhen')
+2024-04-25 22:34:31,047 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [9080] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=10&article_content=
+2024-04-25 22:34:31,047 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [9080] - INFO - second:10
+2024-04-25 22:34:31,048 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [9080] - INFO - data:{'limit': '10', 'article_content': ''}
+2024-04-25 22:34:31,048 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [9080] - INFO - sql:select * from article order by article_time desc limit 10
+2024-04-25 22:34:31,053 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [15652] - INFO - req_url:http://127.0.0.1:5000/article/select_article_by_condition?limit=15&article_content=
+2024-04-25 22:34:31,053 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [15652] - INFO - second:0
+2024-04-25 22:34:31,053 - logger - E:\document\pycharmProject\mobile-back\src\view\article_control.py - 58 - [15652] - INFO - data:{'limit': '15', 'article_content': ''}
+2024-04-25 22:34:31,054 - logger - E:\document\pycharmProject\mobile-back\src\dao\article_dao.py - 15 - [15652] - INFO - sql:select * from article order by article_time desc limit 15
+2024-04-25 22:34:31,056 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [9080] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82 , 80 , 81 , 78 , 77 , 75) order by update_time desc
+2024-04-25 22:34:31,060 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [9080] - INFO - sql:select * from sys_user where  user_code in ('zhangzhen' , 'chenhanwu78' , 'chenhanwu' , 'gyy' , 'zhao')
+2024-04-25 22:34:31,060 - logger - E:\document\pycharmProject\mobile-back\src\dao\comment_dao.py - 21 - [15652] - INFO - sql:select * from comment where article_id in (87 , 86 , 83 , 85 , 82 , 80 , 81 , 78 , 77 , 75 , 74 , 66 , 67 , 65 , 64) order by update_time desc
+2024-04-25 22:34:31,073 - logger - E:\document\pycharmProject\mobile-back\src\dao\sys_user_dao.py - 21 - [15652] - INFO - sql:select * from sys_user where  user_code in ('zhangzhen' , 'chenhanwu78' , 'chenhanwu' , 'cccccc' , 'gyy' , 'zhao')
+2024-04-25 22:35:33,101 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [4996] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
+2024-04-25 22:35:33,102 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [4996] - INFO - second:62
+2024-04-25 22:35:33,103 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [4996] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
+2024-04-25 22:35:33,103 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [4996] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
+2024-04-25 22:35:33,103 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [2704] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_occup
+2024-04-25 22:35:33,103 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [2704] - INFO - second:0
+2024-04-25 22:35:33,103 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [2704] - INFO - data:{'limit': '15', 'order_col': 'brand_occup'}
+2024-04-25 22:35:33,103 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [2704] - INFO - sql:select * from mobile_company order by brand_occup desc  limit 15
+2024-04-25 22:35:33,109 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [22756] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=good_score
+2024-04-25 22:35:33,109 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [22756] - INFO - second:0
+2024-04-25 22:35:33,109 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [22756] - INFO - data:{'limit': '15', 'order_col': 'good_score'}
+2024-04-25 22:35:33,109 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [22756] - INFO - sql:select * from mobile_company order by good_score desc  limit 15
+2024-04-25 22:35:33,117 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [29360] - INFO - req_url:http://127.0.0.1:5000/mobile_company/select_mobile_company_by_condition?limit=15&order_col=brand_score
+2024-04-25 22:35:33,117 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [29360] - INFO - second:0
+2024-04-25 22:35:33,117 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_company_control.py - 17 - [29360] - INFO - data:{'limit': '15', 'order_col': 'brand_score'}
+2024-04-25 22:35:33,123 - logger - E:\document\pycharmProject\mobile-back\src\dao\mobile_company_dao.py - 16 - [29360] - INFO - sql:select * from mobile_company order by brand_score desc  limit 15
+2024-04-25 22:35:34,376 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [3032] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_mobile_num_every_company
+2024-04-25 22:35:34,376 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [3032] - INFO - second:1
+2024-04-25 22:35:34,378 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [13720] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_score_by_limit?limit=30
+2024-04-25 22:35:34,379 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [13720] - INFO - second:0
+2024-04-25 22:35:34,379 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 60 - [13720] - INFO - data:{'limit': '30'}
+2024-04-25 22:35:34,380 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [25180] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_cpu_num_all?limit=200
+2024-04-25 22:35:34,380 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [25180] - INFO - second:0
+2024-04-25 22:35:34,382 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 49 - [25180] - INFO - data:{'limit': '200'}
+2024-04-25 22:35:35,354 - logger - E:\document\pycharmProject\mobile-back\App.py - 69 - [24872] - INFO - req_url:http://127.0.0.1:5000/mobile_detail/select_cpu_num_all?limit=200
+2024-04-25 22:35:35,354 - logger - E:\document\pycharmProject\mobile-back\src\cache\cache.py - 69 - [24872] - INFO - second:0
+2024-04-25 22:35:35,354 - logger - E:\document\pycharmProject\mobile-back\src\view\mobile_detail_control.py - 49 - [24872] - INFO - data:{'limit': '200'}

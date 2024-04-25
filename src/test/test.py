@@ -1,5 +1,6 @@
 import base64
 import re
+from random import  Random
 
 
 def trans_photo():
@@ -30,5 +31,8 @@ if __name__ == '__main__':
     # prefix = "data:image/jpg;base64,"
     # base64_img = trans_photo()
     # print(prefix + base64_img)
-    read_py_pkg()
+    # read_py_pkg()
+    for i in range(100):
+        rand = Random().randint(1, 5)
+        print(rand)
     pass

@@ -4,7 +4,7 @@ from datetime import datetime
 class SysUser:
     def __init__(self, user_code: str = None, pswd: str = None, e_mail: str = None, stu_id: str = None,
                  question: str = None,
-                 answer: str = None, dates: datetime = datetime.now(), user_photo: str = None):
+                 answer: str = None, dates: datetime = None, user_photo: str = None):
         self.user_code = user_code
         self.pswd = pswd
         self.e_mail = e_mail

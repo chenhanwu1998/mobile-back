@@ -56,3 +56,7 @@ def update_by_user_code(user: SysUser, new_pswd: str) -> bool:
                 raise Exception("旧密码不正确")
     user.pswd = new_pswd
     return sys_user_dao.update_by_user_code(user)
+
+
+def update_user_photo(user: SysUser) -> bool:
+    return sys_user_dao.update_by_user_code(user)
