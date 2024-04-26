@@ -43,6 +43,11 @@ def select_mobile_detail_by_condition(mobile: MobileDetail, order_col: str = Non
     return trans_result(sql)
 
 
+def select_by_id(phone_id) -> list:
+    sql = f"select * from mobile_detail where id = {phone_id}"
+    return trans_result(sql)
+
+
 def select_mobile_num_every_company():
     sql = '''
     select count(*) as mobile_num, company_type
@@ -152,5 +157,6 @@ def trans_result_dto(sql: str, target_col_list: list) -> list[MobileDetailDTO]:
 
 
 if __name__ == '__main__':
-    res = select_mobile_detail_by_condition(MobileDetail(company_type="vivo"), limit=10)
+    # res = select_mobile_detail_by_condition(MobileDetail(company_type="vivo"), limit=10)
+    res = select_by_id(17812)
     common_utils.print_obj_list(res)

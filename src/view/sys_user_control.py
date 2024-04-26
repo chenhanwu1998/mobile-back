@@ -8,7 +8,9 @@ from flask import request, jsonify, Blueprint
 from src.constant import uer_photo_dir_path
 from src.dto.Result import Result
 from src.entity.SysUser import SysUser
+from src.entity.UserBehavior import UserBehavior
 from src.service import sys_user_service
+from src.service import user_behavior_service
 from src.utils import common_utils, convert_utils, string_utils
 from src.utils.loging_utils import logger
 
@@ -98,3 +100,27 @@ def update_user_photo():
         os.remove(old_user_photo_path)
 
     return jsonify(Result.success(file_path).__dict__)
+
+
+@sys_user_route.route("/sys_user/select_user_behavior", methods=["POST"])
+def select_user_behavior():
+    data = dict(request.json)
+    logger.info("data:" + str(data))
+    limit = None
+    if "limit" in data.keys():
+        limit = data["limit"]
+    data_dict = convert_utils.convert_dict(UserBehavior(), data)
+    condition = UserBehavior(**data_dict)
+    result = user_behavior_service.select_user_by_condition(condition, limit)
+    return jsonify(Result.success(common_utils.trans_obj_list(result)).__dict__)
+
+
+# 新增或者更新用户行为
+@sys_user_route.route("/sys_user/add_or_update_user_behavior", methods=["POST"])
+def add_or_update_user_behavior():
+    data = dict(request.json)
+    logger.info("data:" + str(data))
+    data_dict = convert_utils.convert_dict(UserBehavior(), data)
+    user_behavior = UserBehavior(**data_dict)
+    result = user_behavior_service.add_or_update_user_behavior(user_behavior)
+    return jsonify(Result.success(result).__dict__)

@@ -13,7 +13,7 @@ class MobileDetail:
                  one_two_star: str = None, score: float = 0, descript: str = None, evaluate_url: str = None,
                  detail_descript: str = None, reference_price: float = 0, type: str = None, url: str = None,
                  review_count: int = 0, img_url: str = None, company_type: str = None,
-                 update_time: datetime = datetime.now()):
+                 update_time: datetime = None):
         self.cpu = cpu
         self.id = id
         self.param_url = param_url
@@ -45,4 +45,7 @@ class MobileDetail:
         self.review_count = trans_num(review_count)
         self.img_url = img_url
         self.company_type = company_type
-        self.update_time = update_time
+        if update_time is None:
+            self.update_time = datetime.now()
+        else:
+            self.update_time = update_time

@@ -63,3 +63,13 @@ def select_score_by_limit():
         limit = int(data["limit"])
     result = mobile_detail_service.select_score_by_limit(limit)
     return jsonify(Result.success(common_utils.trans_obj_list(result)).__dict__)
+
+
+@mobile_detail_route.route('/mobile_detail/select_by_id', methods=['GET'])
+def select_by_id():
+    data = request.args.to_dict()
+    logger.info("data:" + str(data))
+    if "mobile_id" not in data:
+        raise Exception("缺乏手机id参数")
+    result = mobile_detail_service.select_score_by_limit(int(data["mobile_id"]))
+    return jsonify(Result.success(result.__dict__).__dict__)

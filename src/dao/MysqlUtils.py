@@ -1,8 +1,10 @@
 import json
+import traceback
 
 from sqlalchemy import create_engine
 
 from src.constant import CONFIG_PATH, MYSQL, SQLITE
+from src.utils.loging_utils import logger
 
 
 def get_config():
@@ -16,18 +18,31 @@ class MysqlUtils:
 
     def __init__(self):
         self.connect = None
-        config = get_config()
-        if config["DB_TYPE"] == MYSQL:
+        self.config = get_config()
+        self.engine = None
+        self.set_engine()
+
+    def set_engine(self):
+        if self.config["DB_TYPE"] == MYSQL:
             self.engine = create_engine('mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8mb4'
-                                        % (config['MYSQL_USER'], config['MYSQL_PASSWORD'], config['MYSQL_HOST'],
-                                           config['MYSQL_PORT'], config['MYSQL_DB']), )
-        elif config["DB_TYPE"] == SQLITE:
-            self.engine = create_engine('sqlite:///' + config["SQLITE_PATH"])
+                                        % (self.config['MYSQL_USER'], self.config['MYSQL_PASSWORD'],
+                                           self.config['MYSQL_HOST'],
+                                           self.config['MYSQL_PORT'], self.config['MYSQL_DB']), )
+        elif self.config["DB_TYPE"] == SQLITE:
+            self.engine = create_engine('sqlite:///' + self.config["SQLITE_PATH"])
         else:
             raise Exception("数据库配置错误")
 
     def get_connect(self):
         if self.connect is None:
+            self.connect = self.engine
+        try:
+            self.connect.execute("select 1")
+        except Exception as e:
+            trace = traceback.format_exc()
+            logger.error("error:" + str(e))
+            logger.error("trace:" + trace)
+            self.set_engine()
             self.connect = self.engine
         return self.connect
 

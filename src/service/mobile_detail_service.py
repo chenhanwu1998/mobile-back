@@ -45,3 +45,13 @@ def select_cpu_num_all(limit_num: int = 200):
 
 def select_score_by_limit(limit_num: int = 20):
     return mobile_detail_dao.select_score_by_limit(limit_num)
+
+
+def select_by_id(mobile_id) -> MobileDetail:
+    if mobile_id is None:
+        return None
+    res_list = mobile_detail_dao.select_by_id(mobile_id)
+    if res_list is not None and len(res_list) > 0:
+        return res_list[0]
+    else:
+        return None
