@@ -96,9 +96,9 @@ def update_user_photo():
     old_user_photo_path = sys_user.user_photo
     sys_user.user_photo = file_path
     sys_user_service.update_user_photo(sys_user)
-    if not string_utils.is_empty(old_user_photo_path) and old_user_photo_path not in default_user_photo_list:
+    old_photo_name = old_user_photo_path.split("/")[-1]
+    if not string_utils.is_empty(old_user_photo_path) and old_photo_name not in default_user_photo_list:
         os.remove(old_user_photo_path)
-
     return jsonify(Result.success(file_path).__dict__)
 
 

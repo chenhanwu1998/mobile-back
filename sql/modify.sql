@@ -10,3 +10,15 @@ alter table comment
 alter table comment
         add comment_status varchar(8) null comment '0 未读，1已读' default '0';
 
+
+create table user_behavior
+(
+    id          int auto_increment
+        primary key,
+    user_code   varchar(256)                       null,
+    phone_id    int                                null,
+    create_time datetime default CURRENT_TIMESTAMP null,
+    like_count  int                                null comment '点击次数'
+)
+    comment '用户行为';
+

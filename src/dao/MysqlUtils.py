@@ -60,6 +60,8 @@ class MysqlUtils:
         sql = f"select max({primary_key}) from {table}"
         result = self.query_sql(sql)
         max_id = result[0][0]
+        if max_id is None:
+            return 1
         return max_id + 1
 
 
