@@ -1,0 +1,3 @@
+INSERT INTO mobile_inf.sys_user (user_code, pswd, e_mail, stu_id, question, answer, dates, user_photo) VALUES ('chenhanwu', '123456', '120999111132@qq.com', '', '', '', '2024-04-27 15:09:49', './data/user_photo/d52ce320-b923-4bc2-ae33-b6089ecb2209_default-user-img3.jpg');
+INSERT INTO mobile_inf.sys_user (user_code, pswd, e_mail, stu_id, question, answer, dates, user_photo) VALUES ('zhangzhen', '123456', '21312414124@qq.com', '', '', '', '2024-04-27 15:44:31', './data/user_photo/default-user-img1.jpg');
+INSERT INTO mobile_inf.sys_user (user_code, pswd, e_mail, stu_id, question, answer, dates, user_photo) VALUES ('zhao', '123456', '146585120231@qq.com', '', '', '', '2024-04-27 15:10:29', './data/user_photo/f77c4f04-7f0f-4c91-95a6-0678f7fbc24b_default-user-img2.jpg');

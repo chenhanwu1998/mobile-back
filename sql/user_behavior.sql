@@ -1,0 +1,14 @@
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (1, 'chenhanwu', 2002741, '2024-04-27 16:01:29', 3);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (2, 'chenhanwu', 2001676, '2024-04-27 15:30:19', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (3, 'zhao', 1796411, '2024-04-27 15:36:24', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (4, 'zhao', 1772541, '2024-04-27 15:36:31', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (5, 'zhao', 2002741, '2024-04-27 15:36:39', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (6, 'zhao', 1427277, '2024-04-27 15:37:10', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (7, 'chenhanwu', 1994924, '2024-04-27 15:38:53', 2);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (8, 'chenhanwu', 1427277, '2024-04-27 15:39:06', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (9, 'chenhanwu', 1796411, '2024-04-27 15:41:27', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (10, 'zhao', 1431603, '2024-04-27 15:43:01', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (11, 'zhangzhen', 1957898, '2024-04-27 15:44:58', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (12, 'zhangzhen', 1429788, '2024-04-27 15:48:27', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (13, 'chenhanwu', 1993842, '2024-04-27 15:49:41', 1);
+INSERT INTO mobile_inf.user_behavior (id, user_code, phone_id, create_time, like_count) VALUES (14, 'chenhanwu', 2002133, '2024-04-27 15:55:50', 1);

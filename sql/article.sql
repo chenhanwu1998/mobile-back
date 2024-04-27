@@ -1,0 +1,10 @@
+INSERT INTO mobile_inf.article (article_id, user, article_content, article_picture, article_time, like_num) VALUES (1, 'chenhanwu', '今天是2023年五月底，市场价格1399买的。查出来是710的处理器。但是这个ozb门店店员推荐的60。后摄像清晰，有快充。而且屏显高。就买的这款。但是710处理器我是在高估了啊，该说不说。感觉比我前几年用的畅玩6x还要卡。。。这个是老人用的，对付了。你们如果想选备用机，日常的怎么也要达到两千', './data/forum/photo/049b1e70-3050-4900-aea8-c684d9b5434c_phone8.jpg', '2024-04-27 15:40:31', 6);
+INSERT INTO mobile_inf.article (article_id, user, article_content, article_picture, article_time, like_num) VALUES (2, 'zhao', '总体来说还行，毕竟价格摆在这，有点买屏幕送机子的感觉，不过还行。对于穷逼的我，也没啥可挑的，要不是Mate40pro摔了，也就不会换这个了，买个先用着吧。看了很久这个价位都是半斤八两，但荣耀的品控还是值得信赖', './data/forum/photo/10498eea-d501-4d28-9303-89ebb0f5a043_phone11.jpg', '2024-04-27 15:42:25', 7);
+INSERT INTO mobile_inf.article (article_id, user, article_content, article_picture, article_time, like_num) VALUES (3, 'zhao', '外形外观：看着很高级 还是很不错的
+屏幕音效：非常的清晰
+拍照效果：图片效果也不错
+运行速度：非常的流畅', './data/forum/photo/b0856482-a65c-44ef-9178-6d026fc47283_phone3.jpg', '2024-04-27 15:43:48', 4);
+INSERT INTO mobile_inf.article (article_id, user, article_content, article_picture, article_time, like_num) VALUES (4, 'zhangzhen', '【一加的精神继承品牌？】“打爆不平”是红魔9pro的核心卖点之一，说白了这个手机跟其他手机都不是一个赛道的，纯平不凸的摄像头，真正的全面屏，就这2点就能满足强迫症了。更不用说它具备了主动散热的小风扇，根据测试它能做到10W的性能释放。泰裤辣。', './data/forum/photo/6d2eba5b-019c-439f-9749-c8b25e33295b_phone12.jpg', '2024-04-27 15:45:35', 9);
+INSERT INTO mobile_inf.article (article_id, user, article_content, article_picture, article_time, like_num) VALUES (5, 'zhangzhen', '性价比，2000元以内就能买到火龙888的手机，真棒，性能配置，，骁龙888，目前第三强的处理器
+还有LPDDR5和ufs3.1', './data/forum/photo/7633023d-8cbd-4fb4-a375-1e3e8b1adc36_phone13.jpg', '2024-04-27 15:48:58', 2);
+INSERT INTO mobile_inf.article (article_id, user, article_content, article_picture, article_time, like_num) VALUES (6, 'chenhanwu', '我买的是5499黑色16+512的，我从K50pro 天玑9000升级到这个处理器，进入原神到元素读条时候明显不卡土了，处理器真的很强大，能开2K画质，超级清晰，但是发热量巨大。不开2K的话画质差点，但也比K50pro强不少，感觉K50pro原神优化就是有问题，很花。', './data/forum/photo/fd2a1120-1c22-40ec-ac45-7d32976b274e_phone14.jpg', '2024-04-27 15:50:22', 3);
