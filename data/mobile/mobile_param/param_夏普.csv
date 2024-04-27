@@ -1,233 +1,102 @@
 id,cpu,上市日期,主屏尺寸,主屏分辨率,后置摄像头,前置摄像头,电池容量,电池类型,核心数,内存,param_url,img_url
-241704,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241704/param.shtml,https://2b.zol-img.com.cn/product/45_320x240/49/ceMTWjX4GVR.jpg
-241708,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241708/param.shtml,https://2a.zol-img.com.cn/product/45_320x240/428/ce8Sw1Wh8l7k.jpg
-241709,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241709/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/371/cekPsd99Swuc.jpg
-241713,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241713/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/475/ceFPmnzRMWU1s.jpg
-241745,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241745/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/599/ceKkliGcLWLI.jpg
-241748,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241748/param.shtml,https://2c.zol-img.com.cn/product/45_320x240/658/ceVcgZ5FWBv0Y.jpg
-241750,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241750/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/773/ceng8SyomZBg.jpg
-241848,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241848/param.shtml,https://2b.zol-img.com.cn/product/45_320x240/651/cejacRPp5vbAc.jpg
-300671,高通 骁龙Snapdragon MSM8255,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/301/300671/param.shtml,https://2a.zol-img.com.cn/product/72_320x240/280/ceBd20JXZ8SA.jpg
-300768,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/301/300768/param.shtml,https://2d.zol-img.com.cn/product/72_320x240/763/ceDt2yEoilTTA.jpg
-270113,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/271/270113/param.shtml,https://2f.zol-img.com.cn/product/58_320x240/639/ceth7XvGD9LNE.jpg
-1230403,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1231/1230403/param.shtml,https://2b.zol-img.com.cn/product/192_320x240/67/ceTTwWFCSsJVI.jpg
-214759,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/215/214759/param.shtml,https://2a.zol-img.com.cn/product/36_320x240/542/ceI2Aa14NLBc6.jpg
-326175,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/327/326175/param.shtml,https://2c.zol-img.com.cn/product/88_320x240/704/cedgunLe0ly6I.jpg
-294883,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/295/294883/param.shtml,https://2a.zol-img.com.cn/product/71_320x240/850/ce5pefXrh3nI2.jpg
-294887,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/295/294887/param.shtml,https://2b.zol-img.com.cn/product/71_320x240/49/ce9g9gHRNNFRA.jpg
-386552,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/387/386552/param.shtml,https://2f.zol-img.com.cn/product/139_320x240/913/cewQqzxQP4Xgw.jpg
-296127,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/297/296127/param.shtml,https://2e.zol-img.com.cn/product/70_320x240/878/ceiMBtwGu1srs.jpg
-260334,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/261/260334/param.shtml,https://2e.zol-img.com.cn/product/53_320x240/570/ceppgRwV6upes.jpg
-175188,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/176/175188/param.shtml,https://2c.zol-img.com.cn/product/27_320x240/968/ce4NUI7UdveDo.jpg
-175901,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/176/175901/param.shtml,https://2e.zol-img.com.cn/product/27_320x240/66/cecDWtf3QoAI.jpg
-146361,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146361/param.shtml,https://2b.zol-img.com.cn/product/19_320x240/721/cezoFNjgw6wAY.jpg
-146508,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146508/param.shtml,https://2a.zol-img.com.cn/product/46_320x240/72/ceWMhq82GDANA.jpg
-237436,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/238/237436/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/35/ceIUUpaKBdo1Y.jpg
-85242,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/86/85242/param.shtml,https://2e.zol-img.com.cn/product/5_320x240/496/ceDUGmhE9Dng.jpg
-85243,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/86/85243/param.shtml,https://2c.zol-img.com.cn/product/5_320x240/638/ce74EapxNpsyU.jpg
-146745,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146745/param.shtml,https://2f.zol-img.com.cn/product/19_320x240/497/ceNo3oJvWQ6Fc.jpg
-146907,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146907/param.shtml,https://2f.zol-img.com.cn/product/19_320x240/189/ceuoqlwj2c8y.jpg
-146910,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146910/param.shtml,https://2f.zol-img.com.cn/product/19_320x240/423/ceJhEjB5lBsQA.jpg
-146911,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146911/param.shtml,https://2b.zol-img.com.cn/product/46_320x240/97/ceaPuxwc6M.jpg
-298118,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/299/298118/param.shtml,https://2a.zol-img.com.cn/product/71_320x240/676/ce8SskRdkiGY.jpg
-236359,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/237/236359/param.shtml,https://2f.zol-img.com.cn/product/43_320x240/41/cevTRUfSosbG2.jpg
-236444,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/237/236444/param.shtml,https://2b.zol-img.com.cn/product/43_320x240/821/ceCxyi5iwDCk.jpg
-301531,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/302/301531/param.shtml,https://2a.zol-img.com.cn/product/73_320x240/530/cesGE80pdwfw.jpg
-91737,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/92/91737/param.shtml,https://2c.zol-img.com.cn/product/7_320x240/380/ceMhNWfTKZGxU.jpg
-91823,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/92/91823/param.shtml,https://2a.zol-img.com.cn/product/8_320x240/686/ceF5Rs02GDgM.jpg
-241548,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241548/param.shtml,https://2a.zol-img.com.cn/product/51_320x240/818/cerjQ4mHxXlQ.jpg
-241558,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241558/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/321/ceqPOCrLsi0Rk.jpg
-332619,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/333/332619/param.shtml,https://2c.zol-img.com.cn/product/94_320x240/74/ceGzAtJ7BpHI.jpg
-201962,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/202/201962/param.shtml,https://2c.zol-img.com.cn/product/46_320x240/302/ceBijrL29igBE.jpg
-291501,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/292/291501/param.shtml,https://2c.zol-img.com.cn/product/67_320x240/834/ce6AmBzjDRJU2.jpg
-1218907,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1219/1218907/param.shtml,https://2c.zol-img.com.cn/product/190_320x240/574/ce45E8jYGDS6Y.jpg
-231495,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/232/231495/param.shtml,https://2d.zol-img.com.cn/product/46_320x240/357/ceD4oVmpqLQk.jpg
-231497,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/232/231497/param.shtml,https://2d.zol-img.com.cn/product/47_320x240/459/ceY3aAf3OrY8Q.jpg
-258983,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/259/258983/param.shtml,https://2d.zol-img.com.cn/product/53_320x240/231/cer8XlWNk1fIE.jpg
-259121,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/260/259121/param.shtml,https://2b.zol-img.com.cn/product/53_320x240/561/cewwKzZa7j6WI.jpg
-80216,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/81/80216/param.shtml,https://2a.zol-img.com.cn/product/3_320x240/482/ceI3SY5zOH2.jpg
-202847,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/203/202847/param.shtml,https://2c.zol-img.com.cn/product/33_320x240/242/ceVspUqueOys.jpg
-260560,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/261/260560/param.shtml,https://2c.zol-img.com.cn/product/53_320x240/2/ce9tvmRQRFFf.jpg
-260594,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/261/260594/param.shtml,https://2a.zol-img.com.cn/product/53_320x240/150/cehcvbbhgiH6.jpg
-260614,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/261/260614/param.shtml,https://2e.zol-img.com.cn/product/53_320x240/496/ce7OBKZXZhPeo.jpg
-228943,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/229/228943/param.shtml,https://2d.zol-img.com.cn/product/40_320x240/201/cebwSDhjce4FU.jpg
-229041,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/230/229041/param.shtml,https://2d.zol-img.com.cn/product/40_320x240/483/ceaDjH2XCth7A.jpg
-229108,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/230/229108/param.shtml,https://2a.zol-img.com.cn/product/40_320x240/616/ceR1oOnFOxtVA.jpg
-290959,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/291/290959/param.shtml,https://2c.zol-img.com.cn/product/67_320x240/612/ceIHh7vhmqrzE.jpg
-307482,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/308/307482/param.shtml,https://2a.zol-img.com.cn/product/77_320x240/14/cex3UmO0NWQdY.jpg
-247907,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/248/247907/param.shtml,https://2b.zol-img.com.cn/product/48_320x240/577/cekBQiZDpHmbQ.jpg
-247909,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/248/247909/param.shtml,https://2e.zol-img.com.cn/product/48_320x240/586/ceK0a5if7B8EA.jpg
+194115,None,2010年,3英寸可单手打字更多3英寸手机>,480×640像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/195/194115/param.shtml,https://2b.zol-img.com.cn/product/31_320x240/671/cePGGqAV5PBrE.jpg
+1291996,高通 骁龙835,2019年,5.93英寸可单手打字更多5.93英寸手机>,2160x1080像素,1300万像素高清级像素高清像素手机>,800万像素普通级像素高像素自拍手机>,3090mAh小电池大电池手机>,None,None,4GB,http://detail.zol.com.cn/1292/1291996/param.shtml,https://2d.zol-img.com.cn/product/201_320x240/897/cej4SBlBv5N2.jpg
+241694,None,2010年07月,3.4英寸可单手打字更多3.4英寸手机>,480×854像素,1210万像素高清级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241694/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/963/ce5i8QQSrsSXI.jpg
+241698,None,2010年07月,3.4英寸可单手打字更多3.4英寸手机>,480×854像素,1210万像素高清级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241698/param.shtml,https://2b.zol-img.com.cn/product/45_320x240/959/cehksAPdhQJDA.jpg
+241704,None,2010年06月,3英寸可单手打字更多3英寸手机>,240×400像素,320万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241704/param.shtml,https://2b.zol-img.com.cn/product/45_320x240/49/ceMTWjX4GVR.jpg
+241708,None,2010年08月,3英寸可单手打字更多3英寸手机>,240×400像素,320万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241708/param.shtml,https://2a.zol-img.com.cn/product/45_320x240/428/ce8Sw1Wh8l7k.jpg
+241709,None,2010年07月,3英寸可单手打字更多3英寸手机>,240×400像素,320万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241709/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/371/cekPsd99Swuc.jpg
+241713,None,2010年06月,3.2英寸可单手打字更多3.2英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241713/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/475/ceFPmnzRMWU1s.jpg
+241745,None,2010年,5英寸可单手打字更多5英寸手机>,480×960像素,530万像素普通级像素高清像素手机>,43万像素普通级像素高像素自拍手机>,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241745/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/599/ceKkliGcLWLI.jpg
+241748,None,2010年,3.2英寸可单手打字更多3.2英寸手机>,暂无数据,暂无数据,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241748/param.shtml,https://2c.zol-img.com.cn/product/45_320x240/658/ceVcgZ5FWBv0Y.jpg
+241750,None,2010年,3.4英寸可单手打字更多3.4英寸手机>,854x480像素,1210万像素高清级像素高清像素手机>,43万像素普通级像素高像素自拍手机>,800mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/242/241750/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/773/ceng8SyomZBg.jpg
+241848,None,2010年04月,3.2英寸可单手打字更多3.2英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,800mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/242/241848/param.shtml,https://2b.zol-img.com.cn/product/45_320x240/651/cejacRPp5vbAc.jpg
+152170,None,None,暂无数据,暂无数据,130万像素普通级像素高清像素手机>,暂无数据,1500mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/153/152170/param.shtml,https://2d.zol-img.com.cn/product/21_320x240/663/ceyHIwl6qXwrM.jpg
+244789,高通 骁龙Snapdragon MSM7200A,2010年06月,3.5英寸可单手打字更多3.5英寸手机>,854x480像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,256MB,http://detail.zol.com.cn/245/244789/param.shtml,https://2d.zol-img.com.cn/product/47_320x240/355/cedUQ5vrr4m5s.jpg
+300671,高通 骁龙Snapdragon MSM8255,2011年10月,3.4英寸可单手打字更多3.4英寸手机>,854x480像素,800万像素普通级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/301/300671/param.shtml,https://2a.zol-img.com.cn/product/72_320x240/280/ceBd20JXZ8SA.jpg
+300768,德州仪器 OMAP4460,2011年12月,4.5英寸可单手打字更多4.5英寸手机>,1280x720像素,1210万像素高清级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,1520mAh小电池大电池手机>,None,None,1GB,http://detail.zol.com.cn/301/300768/param.shtml,https://2d.zol-img.com.cn/product/72_320x240/763/ceDt2yEoilTTA.jpg
+1230403,高通 骁龙630,2018年,5.99英寸可单手打字更多5.99英寸手机>,2160x1080像素,1200万像素高清级像素高清像素手机>,1600万像素高清级像素高像素自拍手机>,2900mAh小电池大电池手机>,None,None,4GB,http://detail.zol.com.cn/1231/1230403/param.shtml,https://2b.zol-img.com.cn/product/192_320x240/67/ceTTwWFCSsJVI.jpg
+91737,None,2006年11月,暂无数据,480×640像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/92/91737/param.shtml,https://2c.zol-img.com.cn/product/7_320x240/380/ceMhNWfTKZGxU.jpg
+91823,None,None,暂无数据,480×640像素,200万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/92/91823/param.shtml,https://2a.zol-img.com.cn/product/8_320x240/686/ceF5Rs02GDgM.jpg
+228943,None,2009年01月,3英寸可单手打字更多3英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/229/228943/param.shtml,https://2d.zol-img.com.cn/product/40_320x240/201/cebwSDhjce4FU.jpg
+229041,None,2007年,3.2英寸可单手打字更多3.2英寸手机>,480×854像素,320万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/230/229041/param.shtml,https://2d.zol-img.com.cn/product/40_320x240/483/ceaDjH2XCth7A.jpg
+1370061,高通骁龙888,2021年05月,6.6英寸,2730x1260像素,2020万像素,1260万像素,5000mAh,None,八核,12GB,http://detail.zol.com.cn/1371/1370061/param.shtml,https://2b.zol-img.com.cn/product/212_320x240/45/cetO539uRdyYw.jpg
+1283395,高通骁龙855,2019年,6.2英寸,,1220万像素,1630万像素,3200mAh,None,八核,6GB,http://detail.zol.com.cn/1284/1283395/param.shtml,https://2e.zol-img.com.cn/product/199_320x240/242/ceeqLEhSYTgBo.jpg
+1395389,高通骁龙480,2021年05月,5.7英寸,,1300万像素,None,3730mAh,None,八核,4GB,http://detail.zol.com.cn/1396/1395389/param.shtml,https://2e.zol-img.com.cn/product/216_320x240/46/ceqYkBmzJifRM.jpg
+1428942,高通骁龙888,2022年09月,6.6英寸,2730x1260px,2020万像素,1260万像素,5000mAh,None,八核,12GB,http://detail.zol.com.cn/1429/1428942/param.shtml,https://2c.zol-img.com.cn/product/222_320x240/988/cecBWpYrxg8aA.jpg
+1429277,高通骁龙695,2022年09月,6.4英寸,2730x1260px,2020万像素,1260万像素,5000mAh,None,八核,6GB,http://detail.zol.com.cn/1430/1429277/param.shtml,None
+1291961,None,2019年,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1292/1291961/param.shtml,https://2a.zol-img.com.cn/product/201_320x240/264/ceY58atE2csfM.jpg
+1205651,高通 骁龙430,2018年01月,5英寸可单手打字更多5英寸手机>,2160x1080像素,1300万像素高清级像素高清像素手机>,500万像素普通级像素高像素自拍手机>,2700mAh小电池大电池手机>,None,None,3GB,http://detail.zol.com.cn/1206/1205651/param.shtml,https://2d.zol-img.com.cn/product/189_320x240/241/ceM8FdcnblIyk.jpg
+1145544,高通 骁龙400（MSM8926）,None,2英寸可单手打字更多2英寸手机>,320x240像素,暂无数据,暂无数据,1700mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/1146/1145544/param.shtml,https://2f.zol-img.com.cn/product/173_320x240/195/cenuxvdG8e1PM.jpg
+1294617,高通骁龙855,2019年,6.4英寸,2430x1080像素,1220万像素,None,3130mAh,None,八核,8GB,http://detail.zol.com.cn/1295/1294617/param.shtml,https://2e.zol-img.com.cn/product/205_320x240/530/ceoJWvL5Q8zkI.jpg
+1169370,高通 骁龙835（MSM8998）,2017年,5.3英寸可单手打字更多5.3英寸手机>,2560x1440像素,2260万像素高清级像素高清像素手机>,1630万像素高清级像素高像素自拍手机>,3160mAh小电池大电池手机>,None,八核,4GB,http://detail.zol.com.cn/1170/1169370/param.shtml,https://2c.zol-img.com.cn/product/182_320x240/952/ceYg8wCzHEAfo.jpg
+1205550,None,2018年,5.48英寸可单手打字更多5.48英寸手机>,2048x1080像素,2000万像素高清级像素高清像素手机>,1600万像素高清级像素高像素自拍手机>,2930mAh小电池大电池手机>,None,八核,4GB,http://detail.zol.com.cn/1206/1205550/param.shtml,https://2f.zol-img.com.cn/product/188_320x240/915/cezn0u8nVSGY2.jpg
+302160,德州仪器 OMAP4430,2011年10月,4.5英寸可单手打字更多4.5英寸手机>,1280x720像素,1210万像素高清级像素高清像素手机>,32万像素普通级像素高像素自拍手机>,1520mAh小电池大电池手机>,None,双核,1GB,http://detail.zol.com.cn/303/302160/param.shtml,https://2f.zol-img.com.cn/product/73_320x240/275/ceup8mR1aAmyk.jpg
+241548,None,2010年,3.4英寸可单手打字更多3.4英寸手机>,480×854像素,1210万像素高清级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241548/param.shtml,https://2a.zol-img.com.cn/product/51_320x240/818/cerjQ4mHxXlQ.jpg
+241558,None,2010年,3.4英寸可单手打字更多3.4英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241558/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/321/ceqPOCrLsi0Rk.jpg
+270963,None,2011年,3.8英寸可单手打字更多3.8英寸手机>,800x480像素,暂无数据,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/271/270963/param.shtml,https://2a.zol-img.com.cn/product/58_320x240/752/ceYBV2bJfjAQ.jpg
+271115,None,2011年,3.4英寸可单手打字更多3.4英寸手机>,854x480像素,1410万像素高清级像素高清像素手机>,暂无数据,800mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/272/271115/param.shtml,https://2e.zol-img.com.cn/product/58_320x240/894/ceTJVLriavXao.jpg
+1233394,高通 骁龙845,2018年,6.2英寸需双手打字更多6.2英寸手机>,2992x1440像素,暂无数据,800万像素普通级像素高像素自拍手机>,3130mAh小电池大电池手机>,None,八核,6GB,http://detail.zol.com.cn/1234/1233394/param.shtml,https://2a.zol-img.com.cn/product/193_320x240/952/cexlAk7Wvx5TQ.jpg
+332619,联发科 MT6577,2012年,5英寸可单手打字更多5英寸手机>,800x480像素,500万像素普通级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,1950mAh小电池大电池手机>,None,双核,512MB,http://detail.zol.com.cn/333/332619/param.shtml,https://2c.zol-img.com.cn/product/94_320x240/74/ceGzAtJ7BpHI.jpg
+301529,德州仪器 OMAP4430,2011年12月,4.5英寸可单手打字更多4.5英寸手机>,1280x720像素,1210万像素高清级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,1520mAh小电池大电池手机>,None,None,1GB,http://detail.zol.com.cn/302/301529/param.shtml,https://2b.zol-img.com.cn/product/73_320x240/255/cecrFNS5CYpg.jpg
+301531,None,2011年12月,4英寸可单手打字更多4英寸手机>,1280x720像素,1210万像素高清级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/302/301531/param.shtml,https://2a.zol-img.com.cn/product/73_320x240/530/cesGE80pdwfw.jpg
+229108,None,2010年01月,暂无数据,暂无数据,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/230/229108/param.shtml,https://2a.zol-img.com.cn/product/40_320x240/616/ceR1oOnFOxtVA.jpg
+221577,None,2009年12月,3英寸可单手打字更多3英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/222/221577/param.shtml,https://2a.zol-img.com.cn/product/44_320x240/524/ceb1nuVDVtci.jpg
+221612,None,2010年02月,3.4英寸可单手打字更多3.4英寸手机>,480×854像素,810万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/222/221612/param.shtml,https://2c.zol-img.com.cn/product/37_320x240/718/ceARQbjVSBkY.jpg
+252150,None,2010年,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252150/param.shtml,https://2f.zol-img.com.cn/product/50_320x240/349/ceRGTKh2zURA6.jpg
+252281,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/253/252281/param.shtml,https://2d.zol-img.com.cn/product/52_320x240/159/ceLbd6ittd0lA.jpg
+252282,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/253/252282/param.shtml,https://2a.zol-img.com.cn/product/52_320x240/198/cesRJhVfwwZN6.jpg
+252283,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/253/252283/param.shtml,https://2a.zol-img.com.cn/product/52_320x240/192/ceO7IQlkxRHMs.jpg
+252285,None,2010年,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252285/param.shtml,https://2a.zol-img.com.cn/product/50_320x240/294/cecsJ1prlbZeM.jpg
+252286,None,2010年08月,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/253/252286/param.shtml,https://2d.zol-img.com.cn/product/52_320x240/861/cekFj2XJNsoU.jpg
+252287,高通 骁龙Snapdragon QSC6270,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,800万像素普通级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/253/252287/param.shtml,https://2c.zol-img.com.cn/product/52_320x240/834/ceDcF1IKmmho.jpg
+252288,None,2010年08月,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/253/252288/param.shtml,https://2b.zol-img.com.cn/product/52_320x240/841/cesqY6dLgeI.jpg
+252291,None,2010年08月,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,800万像素普通级像素高清像素手机>,暂无数据,740mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/253/252291/param.shtml,https://2c.zol-img.com.cn/product/52_320x240/872/ceRj0NxAzirQ.jpg
+252292,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,800万像素普通级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/253/252292/param.shtml,https://2a.zol-img.com.cn/product/54_320x240/118/ce12HGCJuCQ5g.jpg
+301531,None,2011年12月,4英寸可单手打字更多4英寸手机>,1280x720像素,1210万像素高清级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/302/301531/param.shtml,https://2a.zol-img.com.cn/product/73_320x240/530/cesGE80pdwfw.jpg
+91737,None,2006年11月,暂无数据,480×640像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/92/91737/param.shtml,https://2c.zol-img.com.cn/product/7_320x240/380/ceMhNWfTKZGxU.jpg
+91823,None,None,暂无数据,480×640像素,200万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/92/91823/param.shtml,https://2a.zol-img.com.cn/product/8_320x240/686/ceF5Rs02GDgM.jpg
+241548,None,2010年,3.4英寸可单手打字更多3.4英寸手机>,480×854像素,1210万像素高清级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241548/param.shtml,https://2a.zol-img.com.cn/product/51_320x240/818/cerjQ4mHxXlQ.jpg
+241558,None,2010年,3.4英寸可单手打字更多3.4英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/242/241558/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/321/ceqPOCrLsi0Rk.jpg
+332619,联发科 MT6577,2012年,5英寸可单手打字更多5英寸手机>,800x480像素,500万像素普通级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,1950mAh小电池大电池手机>,None,双核,512MB,http://detail.zol.com.cn/333/332619/param.shtml,https://2c.zol-img.com.cn/product/94_320x240/74/ceGzAtJ7BpHI.jpg
+201962,None,2009年07月,3英寸可单手打字更多3英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,54MB,http://detail.zol.com.cn/202/201962/param.shtml,https://2c.zol-img.com.cn/product/46_320x240/302/ceBijrL29igBE.jpg
+291501,None,2011年07月,3.2英寸可单手打字更多3.2英寸手机>,854x480像素,800万像素普通级像素高清像素手机>,43万像素普通级像素高像素自拍手机>,800mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/292/291501/param.shtml,https://2c.zol-img.com.cn/product/67_320x240/834/ce6AmBzjDRJU2.jpg
+1218907,高通 骁龙630,2018年,6英寸需双手打字更多6英寸手机>,2160x1080像素,1300万像素高清级像素高清像素手机>,1600万像素高清级像素高像素自拍手机>,3200mAh小电池大电池手机>,None,八核,6GB,http://detail.zol.com.cn/1219/1218907/param.shtml,https://2c.zol-img.com.cn/product/190_320x240/574/ce45E8jYGDS6Y.jpg
+231495,None,2010年04月,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/232/231495/param.shtml,https://2d.zol-img.com.cn/product/46_320x240/357/ceD4oVmpqLQk.jpg
+231497,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,740mAh小电池大电池手机>,None,None,55MB,http://detail.zol.com.cn/232/231497/param.shtml,https://2d.zol-img.com.cn/product/47_320x240/459/ceY3aAf3OrY8Q.jpg
+258983,None,2010年,2.2英寸可单手打字更多2.2英寸手机>,240×320像素,200万像素普通级像素高清像素手机>,10万像素普通级像素高像素自拍手机>,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/259/258983/param.shtml,https://2d.zol-img.com.cn/product/53_320x240/231/cer8XlWNk1fIE.jpg
+259121,高通 骁龙Snapdragon QSD8650,2010年,3.5英寸可单手打字更多3.5英寸手机>,960x640像素,960万像素普通级像素高清像素手机>,暂无数据,1020mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/260/259121/param.shtml,https://2b.zol-img.com.cn/product/53_320x240/561/cewwKzZa7j6WI.jpg
+80216,None,2006年04月,暂无数据,480×640像素,320万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/81/80216/param.shtml,https://2a.zol-img.com.cn/product/3_320x240/482/ceI3SY5zOH2.jpg
+202847,None,2010年,3英寸可单手打字更多3英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/203/202847/param.shtml,https://2c.zol-img.com.cn/product/33_320x240/242/ceVspUqueOys.jpg
+260560,None,2010年10月,3.2英寸可单手打字更多3.2英寸手机>,854x480像素,960万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/261/260560/param.shtml,https://2c.zol-img.com.cn/product/53_320x240/2/ce9tvmRQRFFf.jpg
+260594,None,2010年10月,3.4英寸可单手打字更多3.4英寸手机>,854x480像素,1410万像素高清级像素高清像素手机>,暂无数据,900mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/261/260594/param.shtml,https://2a.zol-img.com.cn/product/53_320x240/150/cehcvbbhgiH6.jpg
+260614,None,2010年10月,3.2英寸可单手打字更多3.2英寸手机>,854x480像素,800万像素普通级像素高清像素手机>,暂无数据,800mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/261/260614/param.shtml,https://2e.zol-img.com.cn/product/53_320x240/496/ce7OBKZXZhPeo.jpg
+228943,None,2009年01月,3英寸可单手打字更多3英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/229/228943/param.shtml,https://2d.zol-img.com.cn/product/40_320x240/201/cebwSDhjce4FU.jpg
+229041,None,2007年,3.2英寸可单手打字更多3.2英寸手机>,480×854像素,320万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/230/229041/param.shtml,https://2d.zol-img.com.cn/product/40_320x240/483/ceaDjH2XCth7A.jpg
+229108,None,2010年01月,暂无数据,暂无数据,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/230/229108/param.shtml,https://2a.zol-img.com.cn/product/40_320x240/616/ceR1oOnFOxtVA.jpg
+290959,高通 骁龙Snapdragon MSM8655,2011年06月,4.2英寸可单手打字更多4.2英寸手机>,960x540像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/291/290959/param.shtml,https://2c.zol-img.com.cn/product/67_320x240/612/ceIHh7vhmqrzE.jpg
+307482,高通 骁龙Snapdragon MSM7627,2011年,暂无数据,320x480像素,500万像素普通级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,暂无数据,None,None,256MB,http://detail.zol.com.cn/308/307482/param.shtml,https://2a.zol-img.com.cn/product/77_320x240/14/cex3UmO0NWQdY.jpg
+247907,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/248/247907/param.shtml,https://2b.zol-img.com.cn/product/48_320x240/577/cekBQiZDpHmbQ.jpg
+247909,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/248/247909/param.shtml,https://2e.zol-img.com.cn/product/48_320x240/586/ceK0a5if7B8EA.jpg
 190638,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/191/190638/param.shtml,https://2a.zol-img.com.cn/product/30_320x240/282/ceixu517YnXmA.jpg
-279550,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/280/279550/param.shtml,https://2c.zol-img.com.cn/product/64_320x240/532/ceiCB1ClPEfOg.jpg
-268418,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/269/268418/param.shtml,https://2e.zol-img.com.cn/product/57_320x240/332/ceYeYTxECrFdI.jpg
-329776,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/330/329776/param.shtml,https://2a.zol-img.com.cn/product/91_320x240/358/ce7E98Ck4B7EQ.jpg
-1167319,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1168/1167319/param.shtml,https://2e.zol-img.com.cn/product/185_320x240/872/ceYunhDvaLhQ.jpg
-147825,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/148/147825/param.shtml,https://2e.zol-img.com.cn/product/20_320x240/972/ceS6wFduG4q6g.jpg
-178150,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/179/178150/param.shtml,https://2f.zol-img.com.cn/product/46_320x240/733/ceHcMlkQOxwK6.jpg
-178156,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/179/178156/param.shtml,https://2c.zol-img.com.cn/product/27_320x240/422/cemPqbXmSSb2.jpg
-1136441,高通 骁龙808（MSM8992）,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1137/1136441/param.shtml,https://2e.zol-img.com.cn/product/169_320x240/966/cetva4rL8b176.jpg
-1136461,高通 骁龙808（MSM8992）,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1137/1136461/param.shtml,https://2f.zol-img.com.cn/product/174_320x240/721/ceRkhZ4yci6.jpg
-1224713,高通 骁龙630,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1225/1224713/param.shtml,https://2e.zol-img.com.cn/product/192_320x240/106/ceH4eMtyUU7A.jpg
-1224714,联发科 MT6750,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1225/1224714/param.shtml,https://2b.zol-img.com.cn/product/192_320x240/121/ce7y6h0XPOG5Q.jpg
-237436,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/238/237436/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/35/ceIUUpaKBdo1Y.jpg
-1168882,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1169/1168882/param.shtml,https://2f.zol-img.com.cn/product/183_320x240/645/ceR3dKKm3D8TI.jpg
-194115,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/195/194115/param.shtml,https://2b.zol-img.com.cn/product/31_320x240/671/cePGGqAV5PBrE.jpg
-275844,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/276/275844/param.shtml,https://2c.zol-img.com.cn/product/60_320x240/832/ceRtGmMFeHLU.jpg
-245782,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/246/245782/param.shtml,https://2f.zol-img.com.cn/product/47_320x240/643/ceq0J9L9s9Aow.jpg
-214759,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/215/214759/param.shtml,https://2a.zol-img.com.cn/product/36_320x240/542/ceI2Aa14NLBc6.jpg
-276615,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/277/276615/param.shtml,https://2f.zol-img.com.cn/product/61_320x240/661/ceF4j5m1gfmg.jpg
-247907,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/248/247907/param.shtml,https://2b.zol-img.com.cn/product/48_320x240/577/cekBQiZDpHmbQ.jpg
-247909,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/248/247909/param.shtml,https://2e.zol-img.com.cn/product/48_320x240/586/ceK0a5if7B8EA.jpg
-189689,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/190/189689/param.shtml,https://2e.zol-img.com.cn/product/31_320x240/392/ceKAgiblM1DK2.jpg
-189690,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/190/189690/param.shtml,https://2c.zol-img.com.cn/product/46_320x240/680/cetg5eSsDYH0M.jpg
-341929,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/342/341929/param.shtml,https://2a.zol-img.com.cn/product/102_320x240/272/cejz2LlP8UirA.jpg
-252150,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252150/param.shtml,https://2f.zol-img.com.cn/product/50_320x240/349/ceRGTKh2zURA6.jpg
-252281,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252281/param.shtml,https://2d.zol-img.com.cn/product/52_320x240/159/ceLbd6ittd0lA.jpg
-252282,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252282/param.shtml,https://2a.zol-img.com.cn/product/52_320x240/198/cesRJhVfwwZN6.jpg
-252283,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252283/param.shtml,https://2a.zol-img.com.cn/product/52_320x240/192/ceO7IQlkxRHMs.jpg
-252285,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252285/param.shtml,https://2a.zol-img.com.cn/product/50_320x240/294/cecsJ1prlbZeM.jpg
-252286,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252286/param.shtml,https://2d.zol-img.com.cn/product/52_320x240/861/cekFj2XJNsoU.jpg
-252287,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252287/param.shtml,https://2c.zol-img.com.cn/product/52_320x240/834/ceDcF1IKmmho.jpg
-252288,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252288/param.shtml,https://2b.zol-img.com.cn/product/52_320x240/841/cesqY6dLgeI.jpg
-252291,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252291/param.shtml,https://2c.zol-img.com.cn/product/52_320x240/872/ceRj0NxAzirQ.jpg
-252292,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/253/252292/param.shtml,https://2a.zol-img.com.cn/product/54_320x240/118/ce12HGCJuCQ5g.jpg
-1370061,高通骁龙888,None,6.6英寸需双手打字,2730x1260像素1080P高清,2020万像素高清级像素,1260万像素高清级像素,5000mAh大电池,None,None,12GB游戏运行良好,http://detail.zol.com.cn/1371/1370061/param.shtml,https://2b.zol-img.com.cn/product/212_320x240/45/cetO539uRdyYw.jpg
-1283395,高通骁龙855,None,6.2英寸需双手打字,3120x1440像素2K超清,1220万像素高清级像素,1630万像素高清级像素,3200mAh小电池,None,None,6GB游戏运行良好,http://detail.zol.com.cn/1284/1283395/param.shtml,https://2e.zol-img.com.cn/product/199_320x240/242/ceeqLEhSYTgBo.jpg
-1395389,高通骁龙480,None,5.7英寸可单手打字,1520x720像素720P普清,1300万像素高清级像素,800万像素普通级像素,3730mAh大电池,None,None,4GB游戏运行良好,http://detail.zol.com.cn/1396/1395389/param.shtml,https://2e.zol-img.com.cn/product/216_320x240/46/ceqYkBmzJifRM.jpg
-1428942,高通骁龙888,None,6.6英寸需双手打字,2730x1260px1080P高清,2020万像素高清级像素,1260万像素高清级像素,5000mAh大电池,None,None,12GB游戏运行良好,http://detail.zol.com.cn/1429/1428942/param.shtml,https://2c.zol-img.com.cn/product/222_320x240/988/cecBWpYrxg8aA.jpg
-1429277,高通骁龙695,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1430/1429277/param.shtml,None
-1145544,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1146/1145544/param.shtml,https://2f.zol-img.com.cn/product/173_320x240/195/cenuxvdG8e1PM.jpg
-1294617,高通骁龙855,None,6.4英寸需双手打字,2430x1080像素1080P高清,1220万像素高清级像素,800万像素普通级像素,3130mAh小电池,None,None,8GB游戏运行良好,http://detail.zol.com.cn/1295/1294617/param.shtml,https://2e.zol-img.com.cn/product/205_320x240/530/ceoJWvL5Q8zkI.jpg
-1205550,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1206/1205550/param.shtml,https://2f.zol-img.com.cn/product/188_320x240/915/cezn0u8nVSGY2.jpg
-1291961,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1292/1291961/param.shtml,https://2a.zol-img.com.cn/product/201_320x240/264/ceY58atE2csfM.jpg
-1205651,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1206/1205651/param.shtml,https://2d.zol-img.com.cn/product/189_320x240/241/ceM8FdcnblIyk.jpg
-1169370,高通 骁龙835（MSM8998）,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1170/1169370/param.shtml,https://2c.zol-img.com.cn/product/182_320x240/952/ceYg8wCzHEAfo.jpg
-273295,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/274/273295/param.shtml,https://2a.zol-img.com.cn/product/60_320x240/738/celqKkIkAB6sw.jpg
-273427,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/274/273427/param.shtml,https://2d.zol-img.com.cn/product/60_320x240/185/ceBylMSq3tRFs.jpg
-301529,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/302/301529/param.shtml,https://2b.zol-img.com.cn/product/73_320x240/255/cecrFNS5CYpg.jpg
-301531,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/302/301531/param.shtml,https://2a.zol-img.com.cn/product/73_320x240/530/cesGE80pdwfw.jpg
-270963,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/271/270963/param.shtml,https://2a.zol-img.com.cn/product/58_320x240/752/ceYBV2bJfjAQ.jpg
-271115,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/272/271115/param.shtml,https://2e.zol-img.com.cn/product/58_320x240/894/ceTJVLriavXao.jpg
-302160,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/303/302160/param.shtml,https://2f.zol-img.com.cn/product/73_320x240/275/ceup8mR1aAmyk.jpg
-241694,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241694/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/963/ce5i8QQSrsSXI.jpg
-241698,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/242/241698/param.shtml,https://2b.zol-img.com.cn/product/45_320x240/959/cehksAPdhQJDA.jpg
-235100,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/236/235100/param.shtml,https://2b.zol-img.com.cn/product/46_320x240/449/ceZAiXZLh706.jpg
-235101,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/236/235101/param.shtml,https://2a.zol-img.com.cn/product/43_320x240/726/ceUYGhOUHdWFA.jpg
-235103,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/236/235103/param.shtml,https://2d.zol-img.com.cn/product/46_320x240/77/ceL36MwaCt6c.jpg
-235104,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/236/235104/param.shtml,https://2b.zol-img.com.cn/product/45_320x240/145/cepfVeWSSMllk.gif
-235105,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/236/235105/param.shtml,https://2e.zol-img.com.cn/product/47_320x240/486/cezmnsjoEFlo2.jpg
-176746,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/177/176746/param.shtml,https://2b.zol-img.com.cn/product/27_320x240/587/ceLhYOr7cw9R.jpg
-231495,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/232/231495/param.shtml,https://2d.zol-img.com.cn/product/46_320x240/357/ceD4oVmpqLQk.jpg
-231497,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/232/231497/param.shtml,https://2d.zol-img.com.cn/product/47_320x240/459/ceY3aAf3OrY8Q.jpg
-202847,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/203/202847/param.shtml,https://2c.zol-img.com.cn/product/33_320x240/242/ceVspUqueOys.jpg
-202997,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/203/202997/param.shtml,https://2a.zol-img.com.cn/product/33_320x240/386/ceRvT3ZqKRJA6.jpg
-298118,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/299/298118/param.shtml,https://2a.zol-img.com.cn/product/71_320x240/676/ce8SskRdkiGY.jpg
-294883,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/295/294883/param.shtml,https://2a.zol-img.com.cn/product/71_320x240/850/ce5pefXrh3nI2.jpg
-294887,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/295/294887/param.shtml,https://2b.zol-img.com.cn/product/71_320x240/49/ce9g9gHRNNFRA.jpg
-1218907,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1219/1218907/param.shtml,https://2c.zol-img.com.cn/product/190_320x240/574/ce45E8jYGDS6Y.jpg
-199731,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/200/199731/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/535/cetmihN89myzk.jpg
-170205,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/171/170205/param.shtml,https://2f.zol-img.com.cn/product/47_320x240/797/ce8OJ7budg5.jpg
-293219,高通 骁龙Snapdragon MSM8255,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/294/293219/param.shtml,https://2e.zol-img.com.cn/product/68_320x240/970/cewjdDP90DRUc.jpg
-260334,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/261/260334/param.shtml,https://2e.zol-img.com.cn/product/53_320x240/570/ceppgRwV6upes.jpg
-228750,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/229/228750/param.shtml,https://2b.zol-img.com.cn/product/46_320x240/711/ceXQUsq4AjZT.jpg
-80216,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/81/80216/param.shtml,https://2a.zol-img.com.cn/product/3_320x240/482/ceI3SY5zOH2.jpg
-222502,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/223/222502/param.shtml,https://2c.zol-img.com.cn/product/46_320x240/898/ceTvZiELb46.jpg
-315873,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/316/315873/param.shtml,https://2c.zol-img.com.cn/product/82_320x240/208/cetfQYsqejh4M.jpg
-162833,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/163/162833/param.shtml,https://2e.zol-img.com.cn/product/35_320x240/660/cecbbknzoLQwE.jpg
-225158,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/226/225158/param.shtml,https://2f.zol-img.com.cn/product/45_320x240/383/ceOSQOyfMHUl6.jpg
-1214510,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1215/1214510/param.shtml,https://2c.zol-img.com.cn/product/191_320x240/146/cej2xsCRmKI4U.jpg
-257089,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/258/257089/param.shtml,https://2f.zol-img.com.cn/product/51_320x240/665/cedcgzfnGcGNc.jpg
-257090,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/258/257090/param.shtml,https://2e.zol-img.com.cn/product/51_320x240/670/ceS7POIki6bJU.jpg
-228750,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/229/228750/param.shtml,https://2b.zol-img.com.cn/product/46_320x240/711/ceXQUsq4AjZT.jpg
-168894,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/169/168894/param.shtml,https://2e.zol-img.com.cn/product/50_320x240/224/cesZyxtSTGTmU.jpg
-1153106,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1154/1153106/param.shtml,https://2c.zol-img.com.cn/product/175_320x240/84/ceiDdebk8ic62.jpg
-284943,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/285/284943/param.shtml,https://2d.zol-img.com.cn/product/64_320x240/239/ceut8zYXHenL.jpg
-285181,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/286/285181/param.shtml,https://2d.zol-img.com.cn/product/64_320x240/891/ceMiJQ58zuYk.jpg
-309153,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/310/309153/param.shtml,https://2a.zol-img.com.cn/product/78_320x240/894/ceg9R599i1rc.jpg
-1208192,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1209/1208192/param.shtml,https://2c.zol-img.com.cn/product/190_320x240/574/ce45E8jYGDS6Y.jpg
-1174857,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1175/1174857/param.shtml,https://2b.zol-img.com.cn/product/184_320x240/757/ceYv5RZwhG0x6.jpg
-302160,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/303/302160/param.shtml,https://2f.zol-img.com.cn/product/73_320x240/275/ceup8mR1aAmyk.jpg
-152170,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/153/152170/param.shtml,https://2d.zol-img.com.cn/product/21_320x240/663/ceyHIwl6qXwrM.jpg
-300671,高通 骁龙Snapdragon MSM8255,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/301/300671/param.shtml,https://2a.zol-img.com.cn/product/72_320x240/280/ceBd20JXZ8SA.jpg
-300768,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/301/300768/param.shtml,https://2d.zol-img.com.cn/product/72_320x240/763/ceDt2yEoilTTA.jpg
-273890,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/274/273890/param.shtml,https://2a.zol-img.com.cn/product/60_320x240/342/ceM4PG3jpj2sA.jpg
-217742,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/218/217742/param.shtml,https://2b.zol-img.com.cn/product/37_320x240/475/ceMuZ3ADVUZnw.jpg
-1209742,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1210/1209742/param.shtml,https://2f.zol-img.com.cn/product/189_320x240/831/ceIdPHkpFIj1M.jpg
-1179571,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1180/1179571/param.shtml,https://2e.zol-img.com.cn/product/185_320x240/950/cejunVRXLs4ZA.jpg
-216313,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/217/216313/param.shtml,https://2e.zol-img.com.cn/product/47_320x240/556/cehOj6bZkZLM.jpg
-216315,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/217/216315/param.shtml,https://2a.zol-img.com.cn/product/36_320x240/338/ceHRW0QihhA.jpg
-248405,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/249/248405/param.shtml,https://2d.zol-img.com.cn/product/52_320x240/739/cemwrNXMTVpjY.jpg
-1148967,高通 骁龙820（MSM8996）,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1149/1148967/param.shtml,https://2a.zol-img.com.cn/product/176_320x240/150/cehU1PN1UItkA.jpg
-1233394,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1234/1233394/param.shtml,https://2a.zol-img.com.cn/product/193_320x240/952/cexlAk7Wvx5TQ.jpg
-300671,高通 骁龙Snapdragon MSM8255,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/301/300671/param.shtml,https://2a.zol-img.com.cn/product/72_320x240/280/ceBd20JXZ8SA.jpg
-300768,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/301/300768/param.shtml,https://2d.zol-img.com.cn/product/72_320x240/763/ceDt2yEoilTTA.jpg
-332619,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/333/332619/param.shtml,https://2c.zol-img.com.cn/product/94_320x240/74/ceGzAtJ7BpHI.jpg
-272185,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/273/272185/param.shtml,https://2b.zol-img.com.cn/product/59_320x240/431/ceqINcDrDgQA.jpg
-91737,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/92/91737/param.shtml,https://2c.zol-img.com.cn/product/7_320x240/380/ceMhNWfTKZGxU.jpg
-91823,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/92/91823/param.shtml,https://2a.zol-img.com.cn/product/8_320x240/686/ceF5Rs02GDgM.jpg
-305610,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/306/305610/param.shtml,https://2c.zol-img.com.cn/product/75_320x240/228/cenbcatoq2C4k.jpg
-301529,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/302/301529/param.shtml,https://2b.zol-img.com.cn/product/73_320x240/255/cecrFNS5CYpg.jpg
-301531,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/302/301531/param.shtml,https://2a.zol-img.com.cn/product/73_320x240/530/cesGE80pdwfw.jpg
-1230403,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1231/1230403/param.shtml,https://2b.zol-img.com.cn/product/192_320x240/67/ceTTwWFCSsJVI.jpg
-244789,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/245/244789/param.shtml,https://2d.zol-img.com.cn/product/47_320x240/355/cedUQ5vrr4m5s.jpg
-225314,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/226/225314/param.shtml,https://2c.zol-img.com.cn/product/39_320x240/918/ce1Eq0yn05vF6.jpg
-293855,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/294/293855/param.shtml,https://2b.zol-img.com.cn/product/71_320x240/925/ceM9yMM0le5Q.jpg
-260560,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/261/260560/param.shtml,https://2c.zol-img.com.cn/product/53_320x240/2/ce9tvmRQRFFf.jpg
-260594,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/261/260594/param.shtml,https://2a.zol-img.com.cn/product/53_320x240/150/cehcvbbhgiH6.jpg
-260614,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/261/260614/param.shtml,https://2e.zol-img.com.cn/product/53_320x240/496/ce7OBKZXZhPeo.jpg
-326175,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/327/326175/param.shtml,https://2c.zol-img.com.cn/product/88_320x240/704/cedgunLe0ly6I.jpg
-145715,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/146/145715/param.shtml,https://2f.zol-img.com.cn/product/19_320x240/437/ceB9JZ4PXvgcM.jpg
-145729,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/146/145729/param.shtml,https://2a.zol-img.com.cn/product/19_320x240/624/ceuov5uPZxeC.jpg
-145842,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/146/145842/param.shtml,https://2a.zol-img.com.cn/product/19_320x240/326/ce1HkBI2dMwg.jpg
-265681,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/266/265681/param.shtml,https://2d.zol-img.com.cn/product/56_320x240/571/cePyWBwSbHQC2.jpg
-232664,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/233/232664/param.shtml,https://icon.zol-img.com.cn/detail/no_pic/no_320x240.gif
-232665,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/233/232665/param.shtml,https://icon.zol-img.com.cn/detail/no_pic/no_320x240.gif
-232666,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/233/232666/param.shtml,https://icon.zol-img.com.cn/detail/no_pic/no_320x240.gif
-145082,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/146/145082/param.shtml,https://2c.zol-img.com.cn/product/47_320x240/524/ceeTUEK05pzXI.jpg
-230333,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/231/230333/param.shtml,https://2d.zol-img.com.cn/product/46_320x240/969/cebnl8XrE8RI.jpg
-262356,高通 骁龙Snapdragon,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/263/262356/param.shtml,https://2f.zol-img.com.cn/product/54_320x240/935/ce6TWIIfUcRTY.jpg
-262357,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/263/262357/param.shtml,https://2f.zol-img.com.cn/product/54_320x240/941/cevyKOpgHtlcY.jpg
-262386,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/263/262386/param.shtml,https://2f.zol-img.com.cn/product/54_320x240/649/cePl2CsY17QNc.jpg
-203617,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/204/203617/param.shtml,https://2a.zol-img.com.cn/product/47_320x240/46/ceA6CVz7veH5E.jpg
-236359,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/237/236359/param.shtml,https://2f.zol-img.com.cn/product/43_320x240/41/cevTRUfSosbG2.jpg
-236444,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/237/236444/param.shtml,https://2b.zol-img.com.cn/product/43_320x240/821/ceCxyi5iwDCk.jpg
-270113,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/271/270113/param.shtml,https://2f.zol-img.com.cn/product/58_320x240/639/ceth7XvGD9LNE.jpg
-270963,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/271/270963/param.shtml,https://2a.zol-img.com.cn/product/58_320x240/752/ceYBV2bJfjAQ.jpg
-271115,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/272/271115/param.shtml,https://2e.zol-img.com.cn/product/58_320x240/894/ceTJVLriavXao.jpg
-332619,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/333/332619/param.shtml,https://2c.zol-img.com.cn/product/94_320x240/74/ceGzAtJ7BpHI.jpg
-275844,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/276/275844/param.shtml,https://2c.zol-img.com.cn/product/60_320x240/832/ceRtGmMFeHLU.jpg
-244789,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/245/244789/param.shtml,https://2d.zol-img.com.cn/product/47_320x240/355/cedUQ5vrr4m5s.jpg
-204380,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/205/204380/param.shtml,https://2c.zol-img.com.cn/product/45_320x240/370/ceRKWZhVXShvo.jpg
-204389,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/205/204389/param.shtml,https://2a.zol-img.com.cn/product/46_320x240/168/ceQW1lX90I.jpg
-175901,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/176/175901/param.shtml,https://2e.zol-img.com.cn/product/27_320x240/66/cecDWtf3QoAI.jpg
-146361,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146361/param.shtml,https://2b.zol-img.com.cn/product/19_320x240/721/cezoFNjgw6wAY.jpg
-146508,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146508/param.shtml,https://2a.zol-img.com.cn/product/46_320x240/72/ceWMhq82GDANA.jpg
-146745,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146745/param.shtml,https://2f.zol-img.com.cn/product/19_320x240/497/ceNo3oJvWQ6Fc.jpg
-146907,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146907/param.shtml,https://2f.zol-img.com.cn/product/19_320x240/189/ceuoqlwj2c8y.jpg
-146910,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146910/param.shtml,https://2f.zol-img.com.cn/product/19_320x240/423/ceJhEjB5lBsQA.jpg
-146911,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/147/146911/param.shtml,https://2b.zol-img.com.cn/product/46_320x240/97/ceaPuxwc6M.jpg
-266511,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/267/266511/param.shtml,https://2c.zol-img.com.cn/product/56_320x240/136/cekJilzATTPEU.jpg
-85242,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/86/85242/param.shtml,https://2e.zol-img.com.cn/product/5_320x240/496/ceDUGmhE9Dng.jpg
-85243,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/86/85243/param.shtml,https://2c.zol-img.com.cn/product/5_320x240/638/ce74EapxNpsyU.jpg
-175188,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/176/175188/param.shtml,https://2c.zol-img.com.cn/product/27_320x240/968/ce4NUI7UdveDo.jpg
-235099,高通 骁龙Snapdragon MSM6290,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/236/235099/param.shtml,https://2e.zol-img.com.cn/product/46_320x240/758/ceRdKXJyIFBAY.jpg
-279552,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/280/279552/param.shtml,https://2a.zol-img.com.cn/product/64_320x240/512/ceaTw6IBfcc.jpg
-200956,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/201/200956/param.shtml,https://2d.zol-img.com.cn/product/32_320x240/95/cenglfNbtMJDI.jpg
-199731,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/200/199731/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/535/cetmihN89myzk.jpg
-317085,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/318/317085/param.shtml,https://2b.zol-img.com.cn/product/82_320x240/257/ceZ17EKEEIBE.jpg
-228750,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/229/228750/param.shtml,https://2b.zol-img.com.cn/product/46_320x240/711/ceXQUsq4AjZT.jpg
-315873,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/316/315873/param.shtml,https://2c.zol-img.com.cn/product/82_320x240/208/cetfQYsqejh4M.jpg
-168894,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/169/168894/param.shtml,https://2e.zol-img.com.cn/product/50_320x240/224/cesZyxtSTGTmU.jpg
-229586,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/230/229586/param.shtml,https://2c.zol-img.com.cn/product/54_320x240/154/ce5oEyIBnngv2.jpg
-257089,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/258/257089/param.shtml,https://2f.zol-img.com.cn/product/51_320x240/665/cedcgzfnGcGNc.jpg
-257090,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/258/257090/param.shtml,https://2e.zol-img.com.cn/product/51_320x240/670/ceS7POIki6bJU.jpg
-200271,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/201/200271/param.shtml,https://2b.zol-img.com.cn/product/32_320x240/703/ceeECjWtBVwzA.jpg
-75336,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/76/75336/param.shtml,https://2b.zol-img.com.cn/product/2_320x240/407/ceTfpfsWyOvmM.jpg
-227676,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/228/227676/param.shtml,https://2d.zol-img.com.cn/product/40_320x240/137/ceLlMXUzKlFtE.jpg
-227677,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/228/227677/param.shtml,https://2e.zol-img.com.cn/product/46_320x240/528/ce2nQnuwedqQg.jpg
-227678,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/228/227678/param.shtml,https://2a.zol-img.com.cn/product/45_320x240/320/ceuaRZaJKQDx.jpg
-284943,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/285/284943/param.shtml,https://2d.zol-img.com.cn/product/64_320x240/239/ceut8zYXHenL.jpg
-285181,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/286/285181/param.shtml,https://2d.zol-img.com.cn/product/64_320x240/891/ceMiJQ58zuYk.jpg
-193898,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/194/193898/param.shtml,https://2b.zol-img.com.cn/product/31_320x240/609/ceecgkFQ42sQ.jpg
-193909,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/194/193909/param.shtml,https://2c.zol-img.com.cn/product/34_320x240/480/ceyafFvp8Ujgc.jpg
-1272856,None,None,None,None,None,None,None,None,None,None,http://detail.zol.com.cn/1273/1272856/param.shtml,https://2c.zol-img.com.cn/product/198_320x240/488/ceqQmgMLDwO6.jpg
+279550,高通 骁龙Snapdragon MSM8255,2011年05月,4.2英寸可单手打字更多4.2英寸手机>,960x540像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,512MB,http://detail.zol.com.cn/280/279550/param.shtml,https://2c.zol-img.com.cn/product/64_320x240/532/ceiCB1ClPEfOg.jpg
+279552,None,2011年05月,3.4英寸可单手打字更多3.4英寸手机>,854x480像素,1600万像素高清级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/280/279552/param.shtml,https://2a.zol-img.com.cn/product/64_320x240/512/ceaTw6IBfcc.jpg
+200956,None,2010年,2.8英寸可单手打字更多2.8英寸手机>,480×854像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/201/200956/param.shtml,https://2d.zol-img.com.cn/product/32_320x240/95/cenglfNbtMJDI.jpg
+199731,None,2009年07月,3英寸可单手打字更多3英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,760mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/200/199731/param.shtml,https://2d.zol-img.com.cn/product/45_320x240/535/cetmihN89myzk.jpg
+317085,高通 骁龙Snapdragon MSM7225A,2012年,3.5英寸可单手打字更多3.5英寸手机>,480x320像素,300万像素普通级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,1200mAh小电池大电池手机>,None,单核,256MB,http://detail.zol.com.cn/318/317085/param.shtml,https://2b.zol-img.com.cn/product/82_320x240/257/ceZ17EKEEIBE.jpg
+228750,None,2010年,3英寸可单手打字更多3英寸手机>,240×400像素,500万像素普通级像素高清像素手机>,暂无数据,760mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/229/228750/param.shtml,https://2b.zol-img.com.cn/product/46_320x240/711/ceXQUsq4AjZT.jpg
+315873,高通 骁龙Snapdragon MSM7625A,2012年,3.5英寸可单手打字更多3.5英寸手机>,480x320像素,300万像素普通级像素高清像素手机>,30万像素普通级像素高像素自拍手机>,暂无数据,None,None,256MB,http://detail.zol.com.cn/316/315873/param.shtml,https://2c.zol-img.com.cn/product/82_320x240/208/cetfQYsqejh4M.jpg
+168894,None,2009年02月,2.6英寸可单手打字更多2.6英寸手机>,240×400像素,320万像素普通级像素高清像素手机>,暂无数据,680mAh小电池大电池手机>,None,None,暂无数据,http://detail.zol.com.cn/169/168894/param.shtml,https://2e.zol-img.com.cn/product/50_320x240/224/cesZyxtSTGTmU.jpg
+229586,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,55MB,http://detail.zol.com.cn/230/229586/param.shtml,https://2c.zol-img.com.cn/product/54_320x240/154/ce5oEyIBnngv2.jpg
+257089,高通 骁龙Snapdragon MSM7227,2010年,3.5英寸可单手打字更多3.5英寸手机>,800x480像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,512MB,http://detail.zol.com.cn/258/257089/param.shtml,https://2f.zol-img.com.cn/product/51_320x240/665/cedcgzfnGcGNc.jpg
+257090,高通 骁龙Snapdragon MSM7227,2010年,3.2英寸可单手打字更多3.2英寸手机>,480x320像素,500万像素普通级像素高清像素手机>,暂无数据,1190mAh小电池大电池手机>,None,None,512MB,http://detail.zol.com.cn/258/257090/param.shtml,https://2e.zol-img.com.cn/product/51_320x240/670/ceS7POIki6bJU.jpg
+200271,None,2010年,3英寸可单手打字更多3英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/201/200271/param.shtml,https://2b.zol-img.com.cn/product/32_320x240/703/ceeECjWtBVwzA.jpg
+75336,None,None,暂无数据,240×320像素,130万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/76/75336/param.shtml,https://2b.zol-img.com.cn/product/2_320x240/407/ceTfpfsWyOvmM.jpg
+227676,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/228/227676/param.shtml,https://2d.zol-img.com.cn/product/40_320x240/137/ceLlMXUzKlFtE.jpg
+227677,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/228/227677/param.shtml,https://2e.zol-img.com.cn/product/46_320x240/528/ce2nQnuwedqQg.jpg
+227678,None,2010年,2.9英寸可单手打字更多2.9英寸手机>,400x240像素,500万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/228/227678/param.shtml,https://2a.zol-img.com.cn/product/45_320x240/320/ceuaRZaJKQDx.jpg
+284943,高通 骁龙Snapdragon MSM8655,2011年05月,3.7英寸可单手打字更多3.7英寸手机>,960x540像素,805万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,1.2GB,http://detail.zol.com.cn/285/284943/param.shtml,https://2d.zol-img.com.cn/product/64_320x240/239/ceut8zYXHenL.jpg
+285181,高通 骁龙Snapdragon MSM8255,2011年05月,3.4英寸可单手打字更多3.4英寸手机>,854x480像素,1600万像素高清级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/286/285181/param.shtml,https://2d.zol-img.com.cn/product/64_320x240/891/ceMiJQ58zuYk.jpg
+193898,None,None,3英寸可单手打字更多3英寸手机>,480×854像素,800万像素普通级像素高清像素手机>,暂无数据,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/194/193898/param.shtml,https://2b.zol-img.com.cn/product/31_320x240/609/ceecgkFQ42sQ.jpg
+193909,None,2010年,3.3英寸可单手打字更多3.3英寸手机>,480×854像素,1000万像素普通级像素高清像素手机>,43万像素普通级像素高像素自拍手机>,暂无数据,None,None,暂无数据,http://detail.zol.com.cn/194/193909/param.shtml,https://2c.zol-img.com.cn/product/34_320x240/480/ceyafFvp8Ujgc.jpg
+1272856,高通 骁龙855,2019年,6.2英寸需双手打字更多6.2英寸手机>,3120x1440像素,1200万像素高清级像素高清像素手机>,1600万像素高清级像素高像素自拍手机>,3200mAh小电池大电池手机>,None,八核,6GB,http://detail.zol.com.cn/1273/1272856/param.shtml,https://2c.zol-img.com.cn/product/198_320x240/488/ceqQmgMLDwO6.jpg

@@ -1,6 +1,15 @@
 import base64
+import datetime
 import re
-from random import  Random
+import traceback
+
+import requests
+from lxml import etree
+
+from src.climb.climb_task import climb
+from src.constant import header
+from src.dao import mobile_detail_dao
+from src.entity.MobileDetail import MobileDetail
 
 
 def trans_photo():
@@ -27,12 +36,15 @@ def read_py_pkg():
         print(temp)
 
 
+
 if __name__ == '__main__':
     # prefix = "data:image/jpg;base64,"
     # base64_img = trans_photo()
     # print(prefix + base64_img)
     # read_py_pkg()
-    for i in range(100):
-        rand = Random().randint(1, 5)
-        print(rand)
+    # for i in range(100):
+    #     rand = Random().randint(1, 5)
+    #     print(rand)
+    # get_mobile_img()
+    climb()
     pass

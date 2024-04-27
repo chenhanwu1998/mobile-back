@@ -43,6 +43,12 @@ def select_mobile_detail_by_condition(mobile: MobileDetail, order_col: str = Non
     return trans_result(sql)
 
 
+def select_mobile_url_is_null() -> list[MobileDetail]:
+    sql = "select * from mobile_detail where img_url is null or img_url ='None' or img_url = ''"
+    logger.info("sql:" + sql)
+    return trans_result(sql)
+
+
 def select_by_id(phone_id) -> list:
     sql = f"select * from mobile_detail where id = {phone_id}"
     return trans_result(sql)
@@ -119,7 +125,9 @@ def add_batch(mobile_list: list[MobileDetail]) -> bool:
     sql = f"insert into mobile_detail ({key_str}) values {value_str}"
     sql = sql.replace("%", "%%")
     logger.debug("sql:" + sql)
-    return SingleUtils.mysql_utils.update_sql(sql)
+    result = SingleUtils.mysql_utils.update_sql(sql)
+    logger.info("批量新增入库成功")
+    return result
 
 
 # 一条一条更新，性能问题的话就换为批量操作
@@ -129,8 +137,9 @@ def update_batch(mobile_list: list[MobileDetail]) -> bool:
         value_str = string_utils.join_dict(temp_dict)
         sql = f"update  mobile_detail set {value_str} where id = '{temp.id}'"
         sql = sql.replace("%", "%%")
-        logger.debug("sql:" + sql)
+        logger.info("sql:" + sql)
         SingleUtils.mysql_utils.update_sql(sql)
+    logger.info("批量更新入库成功")
     return True
 
 

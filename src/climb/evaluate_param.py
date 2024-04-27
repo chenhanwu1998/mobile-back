@@ -10,6 +10,7 @@ from lxml import etree
 
 from src import constant
 from src.entity.MobileDetail import MobileDetail
+from src.utils import string_utils
 from src.utils.loging_utils import logger
 
 data_path = constant.mobile_type_data_path
@@ -85,17 +86,14 @@ class MobileParamEvaluate:
                 temp_date = dt[1].text
             elif an_dt:
                 temp_date = an_dt[1].text.replace('>', '')
-
+        if temp_date is None or temp_date == 'None':
+            temp_date = self.trace_find_data(param_html, "上市日期", "span")
         temp_params_dic['上市日期'] = temp_date
 
         pt = "//div[@class='wrapper clearfix mt30']//div[@class='box-item-fl ']"
         label = pt + "//label[@class='name']"
-        an_pt = "//span[@id='newPmVal_3']"
-        xinhao = "//a[@id='newPmName_3']"
         lab = param_html.xpath(label)
         cpu_con = param_html.xpath(pt)
-        an_cpu_con = param_html.xpath(an_pt)
-        xinhao = param_html.xpath(xinhao)
 
         temp_cpu = 'None'
         if cpu_con:
@@ -104,25 +102,59 @@ class MobileParamEvaluate:
                 cpu_con = cpu_con.replace('\t', '').replace('\r', '').replace(' ', '')
                 cpu_list = [t for t in cpu_con.split('\n') if len(t) != 0]
                 temp_cpu = cpu_list[0].split('：')[1].split('游戏')[0].split('手机')[0]
-        elif an_cpu_con:
-            if xinhao and xinhao[0].text == 'CPU型号':
-                an_cpu_con = an_cpu_con[0].xpath('string(.)')
-                cpu = an_cpu_con.split('更多')[0]
-                cpu = cpu.split('手机')[0]
-                temp_cpu = cpu.split('游戏')[0]
+        if temp_cpu == 'None':
+            temp_cpu = self.trace_find_data(param_html, "CPU型号", "a")
         temp_params_dic['cpu'] = temp_cpu
-        if temp_params_dic['img_url'] is None:
+
+        if temp_params_dic['img_url'] is None or temp_params_dic['img_url'] == 'None':
             img_url_list = param_html.xpath("//div[@class='wrapper clearfix mt30']/div[@class='big-pic-fl']/a/img/@src")
-            if img_url_list is not None and len(img_url_list) != 0:
+            if img_url_list is not None and len(img_url_list) != 0 and not string_utils.is_empty(img_url_list[0]):
                 temp_params_dic['img_url'] = img_url_list[0]
 
-        # an_zp_th_pattern = f'//div[@class="detailed-parameters"]//table//tr/th/span'
-        # an_zp_td_pattern = f'//div[@class="detailed-parameters"]//table//tr/td[@class="hover-edit-param "]'
-        # th_list = param_html.xpath(an_zp_th_pattern)
-        # td_list = param_html.xpath(an_zp_td_pattern)
-        # print(len(th_list))
-        # print(len(td_list))
-        # print(th_list[0].text, ":", td_list[0].xpath("string(.)"))
+        key_list = ['主屏尺寸', '主屏分辨率', '后置摄像头', '前置摄像头', '电池容量', '电池类型', '核心数', '内存']
+        for key in key_list:
+            if temp_params_dic[key] is None or temp_params_dic[key] == 'None':
+                if key == "核心数":
+                    temp_params_dic[key] = self.trace_find_data(param_html, "CPU核心数", "span", "a").replace(">", "")
+                elif key == "主屏尺寸":
+                    temp_params_dic[key] = self.trace_find_data(param_html, "屏幕尺寸", "span")
+                elif key == "主屏分辨率":
+                    temp_params_dic[key] = self.trace_find_data(param_html, "分辨率", "span")
+                elif key == "电池容量":
+                    temp_params_dic[key] = self.trace_find_data(param_html, "电池容量", "span")
+                elif key == "内存":
+                    temp_params_dic[key] = self.trace_find_data(param_html, "RAM容量", "a", "a").replace(">", "")
+                elif key == "后置摄像头" or key == "前置摄像头":
+                    key_pattern = "//div[@class='info-list-fr']//li[@class='info-item t-xiangsu-hd']//label[@class='name']"
+                    value_pattern = "//div[@class='info-list-fr']//li[@class='info-item t-xiangsu-hd']//span[@class='product-link']"
+                    key_result_list = param_html.xpath(key_pattern)
+                    value_result_list = param_html.xpath(value_pattern)
+                    if len(key_result_list) != 0:
+                        for j_index, temp_key in enumerate(key_result_list):
+                            if "后置" in temp_key.text and len(value_result_list) > j_index and value_result_list[
+                                j_index].text is not None:
+                                temp_params_dic["后置摄像头"] = value_result_list[j_index].text
+                            if "前置" in temp_key.text and len(value_result_list) > j_index and value_result_list[
+                                j_index].text is not None:
+                                temp_params_dic["前置摄像头"] = value_result_list[j_index].text
+        # print(temp_params_dic)
+
+    def trace_find_data(self, param_html, target_key, tag, tag_suffix=None):
+        for index in range(60):
+            cpu_pattern = f"//{tag}[@id='newPmName_{index}']"
+            result = param_html.xpath(cpu_pattern)
+            if len(result) != 0:
+                for i, temp in enumerate(result):
+                    if temp.text is not None and target_key in temp.text.strip():
+                        cpu_value_pattern = f"//span[@id='newPmVal_{index}']"
+                        if tag_suffix is not None:
+                            cpu_value_pattern = cpu_value_pattern + "/" + tag_suffix
+                        cpu_value_list = param_html.xpath(cpu_value_pattern)
+                        if len(cpu_value_list) != 0:
+                            temp_cpu = cpu_value_list[i].text
+                            return temp_cpu
+                        break
+        return "None"
 
     def get_mobile_detail_param(self, html, temp_params_dic):
         zp_pattern = "//div[@class='wrapper clearfix']//ul[@class='product-param-item pi-57 clearfix']//li"
@@ -150,12 +182,15 @@ class MobileParamEvaluate:
                     temp_params_dic[key] = 'None'
 
         else:  # 新样式爬虫，网站样式排版改变后，再加上另外一种分析机制
-            zp_pattern = '//*[@id="secondsUnderstand"]//div[@class="tab-con"]//div[@class="info-list-01"]//ul'
+            zp_pattern = '//*[@id="secondsUnderstand"]//div[@class="tab-con"]//div[@class="info-list-02"]//ul'
             key_list1 = ['屏幕', '分辨率', '后置', '前置', '电池', '内存']
             key_list2 = ['主屏尺寸', '主屏分辨率', '后置摄像头', '前置摄像头', '电池容量', '内存']
             param = html.xpath(zp_pattern)
             if param is None or len(param) == 0:  # 判断是否存在先
-                return
+                zp_pattern = "//div[@class='second-know con-1']//div[@class='info-list-02']"
+                param = html.xpath(zp_pattern)
+                if param is None or len(param) == 0:
+                    return
             param = param[0]
             param = param.xpath('string(.)').replace('\t', '').replace('\r', '').replace(' ', '')  # 获取所有的在这个标签内的东西后再做分割
             param_list = param.split('\n')
@@ -255,6 +290,7 @@ class MobileParamEvaluate:
         params_dic = mobile_param.params_dic
         evaluate_dic = mobile_param.evaluate_dic
         for i, m_url in enumerate(sub_mobile_list):
+            # m_url = "http://detail.zol.com.cn/cell_phone/index2002741.shtml"
             logger.debug('climb ' + m_url)
 
             page = self.get_page(m_url)
@@ -270,17 +306,21 @@ class MobileParamEvaluate:
             img_url_list = html.xpath(pattern)
             # logger.info("img_url_list:" + str(img_url_list))
             if img_url_list is not None and len(img_url_list) != 0:
-                temp_params_dic["img_url"] = img_url_list[0]
+                temp_params_dic['img_url'] = img_url_list[0]
 
             find_patten = '/(\d+/\d+).*shtml'
             real_url_id = re.findall(find_patten, temp_url)[0]
             param_url = self.detail_root + '/' + real_url_id + '/param.shtml'
             evaluate_url = self.detail_root + '/' + real_url_id + '/review.shtml'
 
+            # param_url = "http://detail.zol.com.cn/2003/2002741/param.shtml"
+            # evaluate_url = "http://detail.zol.com.cn/2003/2002741/review.shtml"
+
             self.get_mobile_id(m_url, temp_params_dic, temp_evaluate_dic)  # 获取id
             self.get_mobile_detail_param(html, temp_params_dic)
             self.get_mobile_param(param_url, temp_params_dic)
             self.get_mobile_evaluate(evaluate_url, temp_evaluate_dic)
+            # print("temp_params_dic:", temp_params_dic)
 
             for k, v in temp_params_dic.items():
                 params_dic[k].append(v)
@@ -320,6 +360,7 @@ class MobileParamEvaluate:
             future_list.append(second_thread_pool.submit(self.run_little_cell, mobile_param, sub_list))
             start_index = start_index + sep
             end_index = start_index + sep
+            # break
 
         param_df = None
         evaluate_df = None
@@ -370,6 +411,19 @@ class MobileParamEvaluate:
             mobile_detail = MobileDetail(**dict(zip(target_all_col, list(line))))
             mobile_detail_list.append(mobile_detail)
         return mobile_detail_list
+
+    def get_img_url(self, m_url):
+        page = self.get_page(m_url)
+        html = etree.HTML(page)  # 综述页面
+        pattern = "//div[@class='product-pics']/div[@class='big-pic']/a/img/@src"
+        img_url_list = html.xpath(pattern)
+        self.count += 1
+        if self.count == self.all_count or self.count % 10 == 0:
+            logger.info(
+                f"brand:{self.brand},count:{self.count}/{self.all_count},进度:{round(self.count / self.all_count, 4) * 100}%")
+        if img_url_list is not None and len(img_url_list) != 0:
+            return img_url_list[0]
+        return None
 
 
 if __name__ == '__main__':
